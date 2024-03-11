@@ -1,0 +1,286 @@
+[
+  {
+    "id": 1,
+    "serial": 1,
+    "tag": "üzlet",
+    "image": "01_meszaros_lorinc.jpg",
+    "name": "Mészáros_Lőrinc",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    
+  },
+  {
+    "id": 2,
+    "serial": 2,
+    "tag": "üzlet",
+    "image": "02_csanyi_sandor.jpg",
+    "name": "Csányi_Sándor",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    
+  },
+  {
+    "id": 3,
+    "serial": 3,
+    "tag": "üzlet",
+    "image": "03_felcsuti_zsolt.jpg",
+    "name": "Felcsuti_Zsolt",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+
+  },
+  {
+    "id": 4,
+    "serial": 4,
+    "tag": "üzlet",
+    "image": "04_veres_tibor.jpg",
+    "name": "Veres_Tibor",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 5,
+    "serial": 5,
+    "tag": "üzlet",
+    "image": "05_gattyan_gyorgy.jpg",
+    "name": "Gattyán_György",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+
+  },
+  {
+    "id": 6,
+    "serial": 6,
+    "tag": "üzlet",
+    "image": "06_szijj_laszlo.jpg",
+    "name": "Szíjj_László",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 7,
+    "serial": 7,
+    "tag": "üzlet",
+    "image": "07_jellinek_daniel.jpg",
+    "name": "Jellinek_Dániel",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 8,
+    "serial": 8,
+    "tag": "üzlet",
+    "image": "0_fantom.jpg",
+    "name": "Demján_Sándorné",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 9,
+    "serial": 9,
+    "tag": "üzlet",
+    "image": "09_szeles_gabor.jpg",
+    "name": "Széles_Gábor",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 10,
+    "serial": 10,
+    "tag": "üzlet",
+    "image": "10_garancsi_istvan.jpg",
+    "name": "Garancsi_István",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 11,
+    "serial": 11,
+    "tag": "média",
+    "image": "0_fantom.jpg",
+    "name": "Rahimkulov_Ruszlan",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 12,
+    "serial": 12,
+    "tag": "média",
+    "image": "12_bige_laszlo.jpg",
+    "name": "Bige_László",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 13,
+    "serial": 13,
+    "tag": "média",
+    "image": "13_jaszai_gellert.jpg",
+    "name": "Jászai_Gellért",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 14,
+    "serial": 14,
+    "tag": "média",
+    "image": "0_fantom.jpg",
+    "name": "Rahimkulov_Timur",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 15,
+    "serial": 15,
+    "tag": "média",
+    "image": "15_scheer_sandor.jpg",
+    "name": "Schee_Sándor",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 16,
+    "serial": 16,
+    "tag": "média",
+    "image": "16_szaraz_istvan.jpg",
+    "name": "Száraz_István",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 17,
+    "serial": 17,
+    "tag": "média",
+    "image": "17_kasza_lajos.jpg",
+    "name": "Kasza_Lajos",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+
+  },
+  {
+    "id": 18,
+    "serial": 18,
+    "tag": "média",
+    "image": "18_futo_gabor.jpg",
+    "name": "Futó_Gábor",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 19,
+    "serial": 19,
+    "tag": "média",
+    "image": "19_waberer_gyorgy.jpg",
+    "name": "Wáberer_György",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 20,
+    "serial": 20,
+    "tag": "média",
+    "image": "20_lakatos_peter.jpg",
+    "name": "Lakato_Péter",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 21,
+    "serial": 21,
+    "tag": "közélet",
+    "image": "21_zettwitz_sandor.jpg",
+    "name": "Zettwitz_Sándor",
+    "sub_title": "és_családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 22,
+    "serial": 22,
+    "tag": "közélet",
+    "image": "22_leisztinger_tamas.jpg",
+    "name": "Leisztinger_Tamás",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 23,
+    "serial": 23,
+    "tag": "közélet",
+    "image": "23_sinko_otto.jpg",
+    "name": "Sinkó_Ottó",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 24,
+    "serial": 24,
+    "tag": "közélet",
+    "image": "24_barany_laszlo.jpg",
+    "name": "Bárány László",
+    "sub_title": "és_családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 25,
+    "serial": 25,
+    "tag": "közélet",
+    "image": "25_harsanyi_zsolt.jpg",
+    "name": "Harsányi Zsolt",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 26,
+    "serial": 26,
+    "tag": "közélet",
+    "image": "26_nagy_elek.jpg",
+    "name": "Harsányi Zsolt",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 27,
+    "serial": 27,
+    "tag": "közélet",
+    "image": "27_tiborcz_istvan.jpg",
+    "name": "Harsányi Zsolt",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 28,
+    "serial": 28,
+    "tag": "közélet",
+    "image": "28_levai_csalad.jpg",
+    "name": "Harsányi_Zsolt",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 29,
+    "serial": 29,
+    "tag": "közélet",
+    "image": "28_levai_csalad.jpg",
+    "name": "Harsányi_Zsolt",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 30,
+    "serial": 30,
+    "tag": "közélet",
+    "image": "30_varga_mihaly.jpg",
+    "name": "Harsányi Zsolt",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  },
+  {
+    "id": 31,
+    "serial": 31,
+    "tag": "kultúra",
+    "image": "31_varga_zoltan.jpg",
+    "name": "Harsányi_Zsolt",
+    "sub_title": "és családja",
+    "paragraph": "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+  }
+]
