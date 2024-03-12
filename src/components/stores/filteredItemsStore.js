@@ -14,17 +14,15 @@ export const useFilteredItemsStore = defineStore({
 
   getters: {
     tags: (state) => {
-      
       return state.__tags;
     },
     
     getSelectedTag: (state) => {
-      
       return state.selectedTag;
     },
-    getSelectedName: (state) => {
-      
-      return (index) => (index != null && index in state.filteredItems) ? state.filteredItems[index].name : state.filteredItems[0].name;
+
+    getSelectedUrl: (state) => {
+      return (index) => (index != null && index in state.filteredItems) ? state.filteredItems[index].url : state.filteredItems[0].url;
     }
   },
   
