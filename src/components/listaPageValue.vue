@@ -1,15 +1,23 @@
 <script setup>
-    import volvoBox from './volvoBox.vue';
-    
-    
-    import { ref } from 'vue';
-    const active = ref(true);
-    
-    import { useHelpers } from '../composables/useHelpers';
-    const { url } = useHelpers();
-
     import { useFilteredItemsStore } from './stores/filteredItemsStore';
+    import { RouterLink, useRoute } from 'vue-router';
+    import volvoBox from './volvoBox.vue';
+    import { useHelpers } from '../composables/useHelpers';
+    import { ref, watch } from 'vue';
+    
+    const { url } = useHelpers();
     const filteredItemsStore = useFilteredItemsStore();
+    const route = useRoute();
+
+    const emits = defineEmits([
+        'closePopup'
+    ]);
+
+    watch(() => [route.params.tag, route.params.url],
+        () => {
+            emits('closePopup');
+        }
+    )
 
 </script>
 
@@ -24,25 +32,27 @@
         <!-- <div class="bg-white w-full h-[5000px]">asdfasdf</div> -->
 
         <div class="max-w-[280px] mx-auto space-y-5">
-            <div
+            <RouterLink
                 v-for="item in filteredItemsStore.filteredItems"
                 :key="item"
                 class="cursor-pointer flex items-center justify-start gap-3"
+                :to="{name: 'subpage', params: {url: item.url, tag: item.tag}}"
+                @click="emits('closePopup')"
             >   
 
-                <div 
-                    :class="{'border-[3px] border-[#FDB78B]': active}"
-                    class="h-[122px] w-[122px] rounded-full overflow-hidden object-cover">
+                <span 
+                    :class="{'border-[3px] border-[#FDB78B]': route.params.url == item.url}"
+                    class="h-[122px] block w-[122px] rounded-full overflow-hidden object-cover">
                     
                     <img :src="url(`/person-images/${item.image}`)" alt="person-image" class="w-full">
                     
-                </div>
-                <h1 
-                    :class="{'text-white': active}"
-                    class="text-[#CD7849] text-[16px] font-bold text-center">
+                </span>
+                <span 
+                    :class="{'text-white': route.params.url == item.url}"
+                    class="text-[#CD7849] block text-[16px] font-bold text-center">
                     {{ item.name }}
-                </h1>
-            </div>
+                </span>
+            </RouterLink>
         
         </div>
 

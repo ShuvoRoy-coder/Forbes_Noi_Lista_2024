@@ -9,8 +9,15 @@
     import { useFilteredItemsStore } from '@/components/stores/filteredItemsStore';
     const filteredItemsStore = useFilteredItemsStore();
 
-    onBeforeMount(() => {
+    onBeforeMount(async () => {
+        
         filteredItemsStore.init();
+
+        const response = await fetch(url('data.json'))
+        
+        const users = await response.json();
+
+        filteredItemsStore.init(users);
     })
 
 
@@ -33,7 +40,7 @@
                 </div>
                 <!-- button area start -->
                 <div class="sm:w-full mini:w-[400px] mob:w-[300px] w-full">
-                    <tovabb-button showarrow="" buttonText="Tovább" name="subpage" :tag="filteredItemsStore.getSelectedTag" :uniqueName="filteredItemsStore.getSelectedUrl(0)"/>
+                    <tovabb-button showarrow="" buttonText="Tovább" name="subpage" :tag="filteredItemsStore.getSelectedTag" :url="filteredItemsStore.getSelectedUrl(0)"/>
                 </div>
 
                 <!-- button area end -->

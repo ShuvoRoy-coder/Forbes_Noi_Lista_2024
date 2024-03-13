@@ -18,7 +18,7 @@ const router = createRouter({
       component: landing
     },
     {
-      path: url('/:tag/:uniqueName'),
+      path: url('/:tag/:url'),
       name: 'subpage',
       component: subpage
     }

@@ -6,14 +6,14 @@
         buttonText: String,
         name: String,
         tag: String,
-        uniqueName: String,
+        url: String,
         showarrow: Boolean
     });
     
 </script>
 
 <template>
-    <router-link :to="{name: props.name, params: {tag: props.tag, uniqueName: props.uniqueName }}"
+    <router-link :to="{name: props.name, params: {tag: props.tag, url: props.url }}"
             class="relative
             text-white text-[20px] block font-bold leading-normal text-center rounded-[14px] py-[20px] group
             bg-white hover:text-orange-600 transition-colors duration-[.4s]"

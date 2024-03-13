@@ -1,5 +1,5 @@
 <script setup>
-    import { ref, onBeforeMount } from 'vue';
+    import { ref, onBeforeMount, onMounted, watch } from 'vue';
     import Slider from "@/components/Slider.vue";
     import volvoBox from "@/components/volvoBox.vue";
     import listaPopUp from '@/components/listaPopUp.vue'
@@ -9,12 +9,106 @@
     import subpageImgDesign from "@/components/subpageImgDesign.vue";
     import subpageTextArea from "@/components/subpageTextArea.vue";
     import tovabbButton from "@/components/tovabbButton.vue";
-
+    import { useRoute } from 'vue-router';
     import { useFilteredItemsStore } from '@/components/stores/filteredItemsStore';
+    import { useHelpers } from '@/composables/useHelpers';
+import router from '@/router';
+    
     const filteredItemsStore = useFilteredItemsStore();
+    const { url } = useHelpers();
 
-    onBeforeMount(() => {
-        filteredItemsStore.init();
+    const route = useRoute()
+
+    const user = ref({});
+
+    onBeforeMount(async () => {
+        
+        filteredItemsStore.init(route.params.tag);
+
+        const response = await fetch(url('data.json'))
+        
+        const users = await response.json();
+
+        filteredItemsStore.init(route.params.tag, users);
+    })
+
+    const selectUser = () => {
+        user.value = filteredItemsStore.users.find((user) => user.url == route.params.url);
+    }
+
+    const previousPageURL = () => {
+        const index = filteredItemsStore.filteredItems.findIndex((item) => item.url == route.params.url);
+
+        let previousIndex = 0;
+
+        if(index <= 0) {
+
+            previousIndex = filteredItemsStore.filteredItems.length - 1;
+        }
+        else {
+            previousIndex = index - 1; 
+        }
+
+        return filteredItemsStore.filteredItems[previousIndex].url;
+    }
+
+    const nextPageURL = () => {
+        const index = filteredItemsStore.filteredItems.findIndex((item) => item.url == route.params.url);
+
+        let nextIndex = 0;
+
+        let maxIndex = filteredItemsStore.filteredItems.length - 1;
+
+        if(index >= maxIndex) {
+
+            nextIndex = 0;
+        }
+        else {
+            nextIndex = index + 1; 
+        }
+
+        return filteredItemsStore.filteredItems[nextIndex].url;
+    }
+
+    const onSlideChange = (event) => {
+        const index = event.realIndex;
+
+        // let maxIndex = filteredItemsStore.filteredItems.length - 1;
+
+        // let index = 0;
+
+        // if(activeIndex >= maxIndex) {
+        //     index = 0;
+        // }
+        // else if(activeIndex <= 0) {
+        //     index = maxIndex
+        // }
+        // else {
+        //     index = activeIndex > event.previousRealIndex
+        //     ? activeIndex + 1
+        //     : activeIndex - 1
+        // }
+
+        const item = filteredItemsStore.filteredItems[index];
+
+        router.push({name: 'subpage', params: {
+            tag: route.params.tag,
+            url: item.url
+        }})
+
+    }
+
+    onMounted( async () => {
+
+        selectUser()
+
+        // fetch the user information when params change
+        watch(
+            () => [route.params.url, route.params.tag],
+            () => {
+                selectUser()
+            }
+        )
     })
     
 </script>
@@ -26,7 +120,7 @@
         <div class="bg-black/80 w-full h-full absolute top-0 left-0 overflow-auto z-10 pb-[80px] lg:pb-0">
 
             <!-- list popup start -->
-                <listaPopUp />
+                <listaPopUp/>
             <!-- list popup end -->
 
             <div class="container mx-auto py-[24px] lg:py-[45px] px-[15px] mini:px-[20px]">
@@ -53,11 +147,15 @@
                         <div class="w-full xl:w-[80%] flex-col md:flex-row flex items-center justify-center md:justify-start gap-3 xl:gap-4">
                         
                         <!-- image area Start-->
-                            <subpageImgDesign/>
+                            <subpageImgDesign
+                                :user="user"
+                            />
                         <!-- image area End-->
                             
                         <!-- text-area start-->
-                            <subpageTextArea/>
+                            <subpageTextArea
+                                :user="user"
+                            />
                         <!-- text-area end-->
 
                         </div>
@@ -82,9 +180,14 @@
                 <!-- center area end -->
                 <!-- slider area start -->
 
-                    <div class="hidden lg:block relative w-full mt-20">                    
+                    <div 
+                        class="hidden lg:block relative w-full mt-20"
+                        v-if="filteredItemsStore.filteredItems.length > 1"
+                    >                    
                         <div class="slider w-[75%] mx-auto">
-                            <Slider/>
+                            <Slider
+                                @slideChange="onSlideChange"
+                            />
                         </div>
                     </div>
                     
@@ -96,9 +199,22 @@
             </div>
             
             <!-- Next page and previous page button start-->
-            <div class="grid grid-cols-2 gap-1 fixed bottom-0 left-0 z-40 w-full lg:hidden">
-                <tovabbButton buttonText="Previous page" name="subpage" tag="üzlet" uniqueName="shuvo"/> 
-                <tovabbButton buttonText="Next page" name="subpage" tag="üzlet" uniqueName="shuvo"/> 
+            <div 
+                class="grid grid-cols-2 gap-1 fixed bottom-0 left-0 z-40 w-full lg:hidden"
+                v-if="filteredItemsStore.filteredItems.length > 1"
+            >
+                <tovabbButton 
+                    buttonText="Previous page" 
+                    name="subpage" 
+                    :tag="route.params.tag" 
+                    :url="previousPageURL()"
+                /> 
+                <tovabbButton 
+                    buttonText="Next page" 
+                    name="subpage" 
+                    :tag="route.params.tag" 
+                    :url="nextPageURL()"
+                /> 
             </div>
             <!-- Next page and previous page button end-->
 

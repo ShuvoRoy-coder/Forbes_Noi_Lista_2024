@@ -4,19 +4,30 @@ import { Swiper, SwiperSlide} from 'swiper/vue';
 import 'swiper/css';
 import 'swiper/css/bundle';
 import 'swiper/css/free-mode';
-import {Navigation, FreeMode } from 'swiper/modules';
-
-
+import {Navigation } from 'swiper/modules';
+import { useFilteredItemsStore } from './stores/filteredItemsStore';
+import { useHelpers } from '../composables/useHelpers';
+import { RouterLink } from 'vue-router';
 import { ref } from 'vue';
+
+
 const active = ref(true);
 
 //-------- creating url-------------
-import { useHelpers } from '../composables/useHelpers';
 const { url } = useHelpers();
 
 //----------- access the filteredItems--------
-import { useFilteredItemsStore } from './stores/filteredItemsStore';
 const filteredItemsStore = useFilteredItemsStore();
+
+const emits = defineEmits([
+    'slideChange'
+]);
+
+
+const onSlideChange = (event) => {
+    console.log(event)
+    emits('slideChange', event);
+}
 
 </script>
 
@@ -26,13 +37,13 @@ const filteredItemsStore = useFilteredItemsStore();
 
     <swiper
 
-        :modules="[Navigation, FreeMode]"
+        :modules="[Navigation]"
         :slidesPerView="3"
         :spaceBetween="30"
-        :freeMode="true"
         :navigation="true"
         :loop="true"
         :grabCursor="true"
+        @slideChange="onSlideChange"
 
         :breakpoints="{
             '1380': {
@@ -65,17 +76,18 @@ const filteredItemsStore = useFilteredItemsStore();
     >
         <swiper-slide
             v-for="(item, index) in filteredItemsStore.filteredItems"
-            :key="item"
+            :key="item.id"
             class="transition-all duration-500 pt-5 cursor-pointer group"
         >   
 
-            <div 
+            <RouterLink 
+                :to="{ name: 'subpage', params: { tag: item.tag, url:item.url }}"
                 :class="{'border-[3px] border-[#FDB78B]': active}"
-                class="h-[122px] w-[122px] rounded-full overflow-hidden object-cover mx-auto transition-all duration-500 group-hover:-translate-y-2">
+                class="h-[122px] block w-[122px] rounded-full overflow-hidden object-cover mx-auto transition-all duration-500 group-hover:-translate-y-2">
                 
                 <img :src="url(`/person-images/${item.image}`)" alt="person-image">
                 
-            </div>
+            </RouterLink>
                 <h1 class="group-hover:text-[#CD7849] font-bold transition-all duration-500 group-hover:opacity-100 group-hover:visible opacity-0 invisible text-transparent text-[16px] text-center">
                     {{ item.name }}
                     {{ item.id }}

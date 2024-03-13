@@ -23,7 +23,9 @@
         >
         <!-- page value start -->
         <div v-show="openlistapge" class="w-full h-full overflow-auto bg-[#2D2D2D]/70 backdrop-blur-lg fixed inset-0 z-50">
-            <listaPageValue/>
+            <listaPageValue
+                @closePopup="openlistapge = false"
+            />
         </div>
         <!-- page value end -->
     </transition>

@@ -1,5 +1,4 @@
 import { defineStore } from 'pinia';
-import jsonData from '../constants/data.json';
 
 export const useFilteredItemsStore = defineStore({
   id: 'filteredItems',
@@ -9,6 +8,7 @@ export const useFilteredItemsStore = defineStore({
       filteredItems: [],
       __tags: [],
       selectedTag: null,
+      users: [],
     }
   },
 
@@ -28,14 +28,25 @@ export const useFilteredItemsStore = defineStore({
   
   actions: {
     setFilteredItems() {
-      this.filteredItems = this.selectedTag ? jsonData.filter(item => item.tag === this.selectedTag) : [];
+      this.filteredItems = this.selectedTag ? this.users.filter(item => item.tag === this.selectedTag) : [];
     },
-    init(){
-      this.__tags = [...new Set(jsonData.map(item => item.tag ?? null))];
-      if(!this.selectedTag){
-        this.selectTag();
+
+    init(tag = null, users = []){
+
+      if(users.length) {
+        this.users = users
+
+        localStorage.setItem('users', JSON.stringify(users));
       }
-      console.log(this.__tags);
+      else {
+        this.users = JSON.parse(localStorage.getItem('users') ?? '[]');
+      }
+      
+      this.__tags = [...new Set(this.users.map(item => item.tag ?? null))];
+      
+      if(!this.selectedTag){
+        this.selectTag(tag);
+      }
     },
 
     selectTag(tag = null){
