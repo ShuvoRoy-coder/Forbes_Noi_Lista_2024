@@ -73,22 +73,6 @@ import router from '@/router';
     const onSlideChange = (event) => {
         const index = event.realIndex;
 
-        // let maxIndex = filteredItemsStore.filteredItems.length - 1;
-
-        // let index = 0;
-
-        // if(activeIndex >= maxIndex) {
-        //     index = 0;
-        // }
-        // else if(activeIndex <= 0) {
-        //     index = maxIndex
-        // }
-        // else {
-        //     index = activeIndex > event.previousRealIndex
-        //     ? activeIndex + 1
-        //     : activeIndex - 1
-        // }
-
         const item = filteredItemsStore.filteredItems[index];
 
         router.push({name: 'subpage', params: {
@@ -110,6 +94,14 @@ import router from '@/router';
             }
         )
     })
+
+     import listaPageValue from '@/components/listaPageValue.vue';
+
+    const openlistapge = ref(false);
+
+    const toggle = () => {
+        openlistapge.value = !openlistapge.value;
+    };
     
 </script>
 
@@ -120,7 +112,7 @@ import router from '@/router';
         <div class="bg-black/80 w-full h-full absolute top-0 left-0 overflow-auto z-10 pb-[80px] lg:pb-0">
 
             <!-- list popup start -->
-                <listaPopUp/>
+                <listaPopUp :small="false"/>
             <!-- list popup end -->
 
             <div class="container mx-auto py-[24px] lg:py-[45px] px-[15px] mini:px-[20px]">
@@ -200,21 +192,30 @@ import router from '@/router';
             
             <!-- Next page and previous page button start-->
             <div 
-                class="grid grid-cols-2 gap-1 fixed bottom-0 left-0 z-40 w-full lg:hidden"
+                class="grid grid-cols-3 justify-between gap-1 fixed bottom-0 left-0 z-40 w-full lg:hidden text-white
+                bg-gradient-to-bl font-urban from-orange-300 via-orange-400 to-orange-600 py-3 px-4"
                 v-if="filteredItemsStore.filteredItems.length > 1"
             >
-                <tovabbButton 
-                    buttonText="Previous page" 
-                    name="subpage" 
-                    :tag="route.params.tag" 
-                    :url="previousPageURL()"
-                /> 
-                <tovabbButton 
-                    buttonText="Next page" 
-                    name="subpage" 
-                    :tag="route.params.tag" 
-                    :url="nextPageURL()"
-                /> 
+
+            <router-link :to="{name: subpage, params: {tag: route.params.tag, url: previousPageURL() }}"
+            class="flex items-center justify-start"
+            >   
+                <div class="w-[33px] h-[20px] rotate-180">
+                    <svg width="100%" height="100%" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.5 1L31 10M31 10L22.5 19M31 10H0" stroke="white" stroke-width="2"></path></svg>
+                </div>
+            </router-link>
+
+            
+                <listaPopUp :small="true"/>
+            
+
+            <router-link :to="{name: subpage, params: {tag: route.params.tag, url: nextPageURL() }}"
+                class="flex items-center justify-end"
+            >
+                <div class="w-[33px] h-[20px]">
+                    <svg width="100%" height="100%" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.5 1L31 10M31 10L22.5 19M31 10H0" stroke="white" stroke-width="2"></path></svg>
+                </div>
+            </router-link>
             </div>
             <!-- Next page and previous page button end-->
 
