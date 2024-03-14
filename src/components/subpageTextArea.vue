@@ -14,10 +14,10 @@ const props = defineProps({
 
 <template>
 
-    <div class="text-area flex flex-col items-center justify-center md:items-start md:justify-start gap-8 md:gap-8">
+    <div class="text-area flex flex-col items-center justify-center lg:items-start lg:justify-start gap-8 md:gap-8">
         <div class="name-and-subtitle pl-10">
             <div class="name text-[22px] mini:text-[50px] text-center sm:text-start font-bold text-white mini:leading-[60px]">{{ user.name }}</div>
-            <div class="subtitle text-white font-bold text-[14px] mini:text-[16px] text-center sm:text-start mini:leading-[22px]">{{ user.sub_title }}</div>
+            <div class="subtitle text-white font-bold text-[14px] mini:text-[16px] text-center lg:text-start mini:leading-[22px]">{{ user.sub_title }}</div>
         </div>
         <!-- paragraph -->
         <div class="w-full bg-white rounded-[10px] px-8 py-6 mini:px-10 mini:py-8 relative">

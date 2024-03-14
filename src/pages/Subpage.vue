@@ -106,10 +106,10 @@ import router from '@/router';
 </script>
 
 <template>
-    <div class="bg-black space-y-8 relative bg-no-repeat bg-center bg-cover w-full h-screen overflow-auto z-10" style="background-image: url(/images/desktop-background.png)">
+    <div class="bg-black space-y-8 relative bg-no-repeat bg-center bg-fixed bg-cover w-full z-[0]" style="background-image: url(/images/desktop-background.png)">
         
         
-        <div class="bg-black/80 w-full h-full absolute top-0 left-0 overflow-auto z-10 pb-[80px] lg:pb-0">
+        <div class="bg-black/80 w-full h-full top-0 left-0 pb-[80px] lg:pb-0">
 
             <!-- list popup start -->
                 <listaPopUp :small="false"/>
@@ -136,18 +136,22 @@ import router from '@/router';
                     
                 <!-- center area start -->
                     <div class="w-full flex flex-col lg:flex-row gap-20 lg:gap-3 xl:gap-6">
-                        <div class="w-full xl:w-[80%] flex-col md:flex-row flex items-center justify-center md:justify-start gap-3 xl:gap-4">
+                        <div class="w-full xl:w-[80%] flex-col lg:flex-row flex items-center justify-center gap-3 xl:gap-4">
                         
                         <!-- image area Start-->
-                            <subpageImgDesign
-                                :user="user"
-                            />
+                            <div class="w-full lg:w-[40%]">
+                                <subpageImgDesign
+                                    :user="user"
+                                />
+                            </div>
                         <!-- image area End-->
                             
                         <!-- text-area start-->
-                            <subpageTextArea
-                                :user="user"
-                            />
+                            <div class="w-full lg:w-[60%]">
+                                <subpageTextArea
+                                    :user="user"
+                                />
+                            </div>
                         <!-- text-area end-->
 
                         </div>
