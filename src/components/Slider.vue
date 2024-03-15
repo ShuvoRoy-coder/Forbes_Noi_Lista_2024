@@ -80,7 +80,7 @@ const onSlideChange = (event) => {
         >   
 
             <RouterLink 
-                :to="{ name: 'subpage', params: { tag: item.tag, url:item.url }}"
+                :to="{ name: 'subpage', params: { tag: item.tag, url:item.url }, query: { savedPosition: true }}"
                 :class="{'border-[#FDB78B]': route.params.url == item.url} , {'border-transparent': route.params.url != item.url}"
                 class="h-[122px] block w-[122px] rounded-full overflow-hidden object-cover border-[3px] mx-auto transition-all duration-500 group-hover:-translate-y-5">
                 

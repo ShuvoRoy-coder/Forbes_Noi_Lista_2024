@@ -1,6 +1,5 @@
 <script setup>
     import { ref, onBeforeMount, onMounted, watch } from 'vue';
-    import { useMediaQuery } from '@vueuse/core';
     import Slider from "@/components/Slider.vue";
     import volvoBox from "@/components/volvoBox.vue";
     import listaPopUp from '@/components/listaPopUp.vue'
@@ -22,9 +21,6 @@
 
     const user = ref({});
 
-
-    //******* */ Add main id under lg screen
-    const screenSizeUnderLg = useMediaQuery('(max-width: 1023.50px)');
 
     onBeforeMount(async () => {
         
@@ -80,10 +76,15 @@
 
         const item = filteredItemsStore.filteredItems[index];
 
-        router.push({name: 'subpage', params: {
+        router.push({name: 'subpage', 
+        params: {
             tag: route.params.tag,
             url: item.url
-        }})
+        },
+        query: {
+            savedPosition: true 
+        }
+    })
 
     }
 
@@ -112,7 +113,6 @@
 </script>
 
 <template>
-    <div :id="screenSizeUnderLg ? 'main' : ''">
         <div class="bg-black space-y-8 relative bg-no-repeat bg-center bg-fixed bg-cover w-full z-[0]" style="background-image: url(/images/desktop-background.png)">
             
             <div class="bg-black/80 w-full h-full top-0 left-0 pb-[80px] lg:pb-0">
@@ -231,5 +231,4 @@
 
             </div>
         </div>
-    </div>
 </template>
