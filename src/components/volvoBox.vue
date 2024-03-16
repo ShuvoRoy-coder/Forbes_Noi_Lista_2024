@@ -17,7 +17,7 @@
         </div>
 
         <div class="bottom">
-            <div class="mx-auto w-[80px] sm:w-[94px]">
+            <div class="mx-auto w-[120px] sm:w-[180px]">
                 <img src="/images/Forbes.svg" alt="forbes-logo">
             </div>
             <h1 class="text-[25px] sm:text-[40px] leading-normal text-center text-white font-semibold">A legbefolyásosabb</h1>
@@ -35,7 +35,7 @@
             flex items-end justify-center w-full h-full py-[10px] mini:py-[14px] sm:py-[18px] rounded-[14px]">
         
         <div class="space-y-[1px] sm:space-y-2">
-            <div class="mx-auto w-[22px] md:w-[28px] sm:w-[35.97px]">
+            <div class="mx-auto w-[50px] sm:w-[65px]">
                 <img src="/images/Forbes.svg" alt="forbes-logo" class="w-full">
             </div>
 

@@ -7,11 +7,11 @@ import 'swiper/css/free-mode';
 import {Navigation } from 'swiper/modules';
 import { useFilteredItemsStore } from './stores/filteredItemsStore';
 import { useHelpers } from '../composables/useHelpers';
-import { RouterLink } from 'vue-router';
+import { RouterLink, useRoute } from 'vue-router';
 import { ref } from 'vue';
 
 
-const active = ref(true);
+const route = useRoute();
 
 //-------- creating url-------------
 const { url } = useHelpers();
@@ -25,7 +25,6 @@ const emits = defineEmits([
 
 
 const onSlideChange = (event) => {
-    console.log(event)
     emits('slideChange', event);
 }
 
@@ -81,9 +80,9 @@ const onSlideChange = (event) => {
         >   
 
             <RouterLink 
-                :to="{ name: 'subpage', params: { tag: item.tag, url:item.url }}"
-                :class="{'border-[3px] border-[#FDB78B]': active}"
-                class="h-[122px] block w-[122px] rounded-full overflow-hidden object-cover mx-auto transition-all duration-500 group-hover:-translate-y-2">
+                :to="{ name: 'subpage', params: { tag: item.tag, url:item.url }, query: { savedPosition: true }}"
+                :class="{'border-[#FDB78B]': route.params.url == item.url} , {'border-transparent': route.params.url != item.url}"
+                class="h-[122px] block w-[122px] rounded-full overflow-hidden object-cover border-[3px] mx-auto transition-all duration-500 group-hover:-translate-y-5">
                 
                 <img :src="url(`/person-images/${item.image}`)" alt="person-image">
                 
