@@ -1,9 +1,9 @@
 <?php
 
-    $url = 'https://stage.forbes.hu/extra';
+    $url = '/';
 
-    $script = '/assets/index-LnNbvF7C.js';
-    $stylsheet = '/assets/index-cbzejEtk.css';
+    $script = 'assets/index-mk253pa-.js';
+    $stylsheet = 'assets/index-cbzejEtk.css';
     
     if(!isset($page)) {
         $page = [
@@ -13,7 +13,7 @@
     }
 
     if(!isset($metaTitle)) {
-        $metaTitle = 'Az 50 leggazdagabb magyar 2023-24 | Forbes';
+        $metaTitle = 'A legbefolyásosabb magyar nők 2024';
         $metaDesc = 'Tizedik alkalommal állítottuk össze a legbefolyásosabb magyar nők listáját üzlet, média, kultúra és közélet kategóriákban.';
     }
 ?>
@@ -26,7 +26,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script>
-      window.mainUrl = "<?= $url ?>";
+      window.mainUrl = "/";
     </script>
     
     <!-- share area -->
@@ -37,7 +37,7 @@
       content="<?= $metaDesc ?>">
     <meta property="og:image" content="<?= $url ?>social-share-images/fb-share.png">
 
-    <title>Forbes - Az 50 leggazdagabb magyar</title>
+    <title>Forbes_Noi_Lista_2024</title>
 
     <script type="module" crossorigin src="<?=$url.$script?>"></script>
     <link rel="stylesheet" crossorigin href="<?=$url.$stylsheet?>">

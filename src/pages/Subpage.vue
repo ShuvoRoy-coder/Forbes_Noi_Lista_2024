@@ -94,7 +94,7 @@ const onSlideChange = () => {
 
 }
 
-const initialSlide = (route.params.url.split('_')[0] ?? 1) - 1;
+const initialSlide = (route.params.url.split('-')[0] ?? 1) - 1;
 const slideTo = ref(null);
 
 const slideToTag = (tag) => {
