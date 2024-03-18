@@ -1,9 +1,9 @@
 <?php
 
-    $url = '/';
+    $url = 'https://stage.forbes.hu/extra';
 
-    $script = 'assets/index-v1aOd7ip.js';
-    $stylsheet = 'assets/index-oOog2nK4.css';
+    $script = '/assets/index-LnNbvF7C.js';
+    $stylsheet = '/assets/index-cbzejEtk.css';
     
     if(!isset($page)) {
         $page = [
@@ -26,7 +26,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script>
-      window.mainUrl = "/";
+      window.mainUrl = "<?= $url ?>";
     </script>
     
     <!-- share area -->
