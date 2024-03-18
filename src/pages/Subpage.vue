@@ -1,5 +1,6 @@
 <script setup>
 import { ref, onBeforeMount, onMounted, watch } from 'vue';
+import magazine from "@/components/Magazine.vue";
 import Slider from "@/components/Slider.vue";
 import volvoBox from "@/components/volvoBox.vue";
 import listaPopUp from '@/components/listaPopUp.vue'
@@ -132,7 +133,7 @@ onMounted( async () => {
                     <listaPopUp :small="false"/>
                 <!-- list popup end -->
 
-                <div class="container mx-auto py-[24px] lg:py-[45px] px-[15px] mini:px-[20px]">
+                <div class="container relative mx-auto py-[24px] lg:py-[45px] px-[15px] mini:px-[20px]">
 
                     <div class="top flex flex-col lg:flex-row items-start justify-between gap-10">
                         <!-- left area start -->
@@ -194,11 +195,10 @@ onMounted( async () => {
                         
                     <!-- center area end -->
                     <!-- slider area start -->
-
                         <div 
                             class="hidden lg:block relative w-full mt-20"
                         >                    
-                            <div class="slider w-[75%] mx-auto">
+                            <div class="slider w-[65%] mx-auto">
                                 <Slider
                                     @slideChange="onSlideChange"
                                     :initialSlide="initialSlide"
@@ -212,6 +212,7 @@ onMounted( async () => {
 
 
                     </div>
+                    <magazine type="subpage"/>
                 </div>
                 
                 <!-- Next page and previous page button start-->

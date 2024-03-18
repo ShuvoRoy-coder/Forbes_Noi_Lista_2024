@@ -1,13 +1,32 @@
 <script setup>
+import { ref } from 'vue';
+import ModszertanModal from './ModszertanModal.vue';
+
     defineProps({
         small: Boolean
     });
+    
+
+    let showModal = ref(false);
+
+    const modszertPopup = ref(false);
+    const closePopup = () => {
+        modszertPopup.value = false;
+    }
+    const showPopup = () => {
+        modszertPopup.value = true;
+    }
 </script>
 
 <template>
+    <ModszertanModal 
+        :showPopup="modszertPopup"
+        @close-popup="closePopup"
+    />
+
     <!-- Big volvoBox start -->
     <div v-show="!small" class="bg-gradient-to-bl font-urban from-orange-300 via-orange-400 to-orange-600
-            flex flex-col items-center justify-center space-y-[100px] sm:space-y-[150px] w-full h-full py-[20px] mini:py-[48px] rounded-[14px]">
+            flex flex-col items-center justify-center space-y-[60px] sm:space-y-[80px] w-full h-full pt-[20px] pb-[10px] mini:pt-[48px] mini:pb-[25px] rounded-[14px]">
         <div class="top">                
             <h3 class="text-orange-800 font-bold text-[14px] mini:text-[20px] leading-normal text-center">Gratulál a listán szereplőknek a</h3>
             
@@ -24,6 +43,21 @@
             <div class="mx-auto w-[189px] sm:w-[291px] -translate-y-3 sm:-translate-y-4">
                 <img src="/images/magyar.svg" alt="forbes-logo">
             </div>
+            <div class="w-full">
+                <div class="text-[#833E17] font-bold text-[10px] sm:text-[14px] leading-normal text-center">
+                    Vezető szerkesztő: Bánáti Anna <br>
+                    Összeállította: Bánáti Anna, Golovics Milán, Harsch Leila <br>
+                    Illusztráció: Csuth Péter, Kocsis Ágnes
+                </div>
+                
+                <button class="pt-3 cursor-pointer font-bold text-[10px] sm:text-[14px] leading-normal text-[#833E17] hover:text-[#FFB489] transition-all block mx-auto underline" 
+                    @click="showPopup"
+                    >
+                        Módszertan
+                </button>
+
+            </div>
+            
         </div>
     </div>
 

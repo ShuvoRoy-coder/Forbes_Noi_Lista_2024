@@ -76,18 +76,18 @@ onMounted(() => {
         @swiper="(event) => {slider = event}"
 
         :breakpoints="{
-            '1380': {
+            '1390': {
                 slidesPerView: 6,
                 spaceBetween: 1,
             },
 
-            '1000': {
-                slidesPerView: 4,
+            '1280': {
+                slidesPerView: 5,
                 spaceBetween: 1,
             },
 
             '750': {
-                slidesPerView: 3,
+                slidesPerView: 4,
                 spaceBetween: 1,
             },
 
@@ -120,7 +120,6 @@ onMounted(() => {
             </RouterLink>
                 <h1 class="group-hover:text-[#CD7849] font-bold transition-all duration-500 group-hover:opacity-100 group-hover:visible opacity-0 invisible text-transparent text-[16px] text-center">
                     {{ item.name }}
-                    {{ item.id }}
                 </h1>
         </swiper-slide>
 
@@ -148,11 +147,11 @@ onMounted(() => {
 }
 
 .swiper-button-next {
-    right: 70px;
+    right: 125px;
     
 }
 .swiper-button-prev {
-    left: 70px;
+    left: 125px;
 }
 
 .swiper-button-prev::after{

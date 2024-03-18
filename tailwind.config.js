@@ -8,6 +8,7 @@ export default {
     extend: {
 
       screens: {
+        half: "1390px",
         mini: "500px",
         mob: "350px",
       },

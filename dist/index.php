@@ -1,9 +1,9 @@
 <?php
 
-    $url = '/';
+    $url = 'https://forbes.hu/extra/';
 
-    $script = 'assets/index-2BMhiQoc.js';
-    $stylsheet = 'assets/index-cbzejEtk.css';
+    $script = 'assets/index-MTgQ_hky.js';
+    $stylsheet = 'assets/index-UOdis9_Z.css"';
     
     if(!isset($page)) {
         $page = [
@@ -45,6 +45,55 @@
   </head>
   <body>
     <div id="app"></div>
-    
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-F73R2FJYMR"
+    ></script>
+    <!-- (C)2000-2023 Gemius SA - gemiusPrism  / https://forbes.hu//Magazin + rovatoldal -->
+    <script type="text/javascript">
+      var pp_gemius_identifier =
+        ".Xo64etTp8t6lPAFeINGA.U2rjvRGAMIPafaVcPMWEn.s7";
+      // lines below shouldn't be edited
+      function gemius_pending(i) {
+        window[i] =
+          window[i] ||
+          function () {
+            var x = (window[i + "_pdata"] = window[i + "_pdata"] || []);
+            x[x.length] = Array.prototype.slice.call(arguments, 0);
+          };
+      }
+      (function (cmds) {
+        var c;
+        while ((c = cmds.pop())) gemius_pending(c);
+      })([
+        "gemius_cmd",
+        "gemius_hit",
+        "gemius_event",
+        "gemius_init",
+        "pp_gemius_hit",
+        "pp_gemius_event",
+        "pp_gemius_init",
+      ]);
+      (function (d, t) {
+        try {
+          var gt = d.createElement(t),
+            s = d.getElementsByTagName(t)[0],
+            l = "http" + (location.protocol == "https:" ? "s" : "");
+          gt.setAttribute("async", "async");
+          gt.setAttribute("defer", "defer");
+          gt.src = l + "://gahu.hit.gemius.pl/xgemius.js";
+          s.parentNode.insertBefore(gt, s);
+        } catch (e) {}
+      })(document, "script");
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-F73R2FJYMR");
+    </script>
   </body>
 </html>
