@@ -20,7 +20,7 @@ const { url } = useHelpers();
             class="relative flex items-center justify-between mx-auto"
         >
 
-            <a href="https://magazin.forbes.hu/2024-januar" target="_black" 
+            <a href="https://magazin.forbes.hu/2024-aprilis" target="_black" 
                 class="text-skyish hover:text-orange-400 border-[1px] bg-[#383838] border-[#E96D12] rounded-[14px] w-full py-3 mini:py-5 px-4
                     text-white transition underline text-[12px] mini:text-[14px] lg:text-[12px] xl:text-[14px] font-semibold">
                 A teljes lista és részletek<br>

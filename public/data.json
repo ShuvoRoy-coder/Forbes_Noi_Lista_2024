@@ -162,7 +162,7 @@
   {
     "id" : 17,
     "serial" : 2,
-    "tag" : "üzlet",
+    "tag" : "üzlet-nemzetközi",
     "image" : "uzlet-nemzetkozi-2-szabo-melinda.png",
     "name" : "Szabó Melinda",
     "url" : "17-szabo-melinda",
@@ -172,7 +172,7 @@
   {
     "id" : 18,
     "serial" : 3,
-    "tag" : "üzlet",
+    "tag" : "üzlet-nemzetközi",
     "image" : "uzlet-nemzetkozi-3-wortmann-gabriella-uj.png",
     "name" : "Wortmann Gabriella",
     "url" : "18-wortmann-gabriella",
@@ -182,7 +182,7 @@
   {
     "id" : 19,
     "serial" : 4,
-    "tag" : "üzlet",
+    "tag" : "üzlet-nemzetközi",
     "image" : "uzlet-nemzetkozi-4-ortutay-zsuzsanna-uj.png",
     "name" : "Ortutay Zsuzsanna",
     "url" : "19-ortutay-zsuzsanna",
@@ -192,7 +192,7 @@
   {
     "id" : 20,
     "serial" : 5,
-    "tag" : "üzlet",
+    "tag" : "üzlet-nemzetközi",
     "image" : "uzlet-nemzetkozi-5-friedl-zsuzsanna-uj.png",
     "name" : "Friedl Zsuzsanna",
     "url" : "20-friedl-zsuzsanna",

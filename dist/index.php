@@ -1,9 +1,9 @@
 <?php
 
-    $url = 'https://forbes.hu/extra/';
+    $url = 'https://Stage.forbes.hu/extra/';
 
-    $script = 'assets/index-MTgQ_hky.js';
-    $stylsheet = 'assets/index-UOdis9_Z.css"';
+    $script = 'assets/index-cDmvl_oT.js';
+    $stylsheet = 'assets/index-UOdis9_Z.css';
     
     if(!isset($page)) {
         $page = [
