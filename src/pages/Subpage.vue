@@ -124,9 +124,9 @@ onMounted( async () => {
 </script>
 
 <template>
-        <div class="bg-black space-y-8 relative bg-no-repeat bg-center bg-fixed bg-cover w-full z-[0]" style="background-image: url(/images/desktop-background.png)">
+        <div id="main" class="bg-black space-y-8 relative bg-no-repeat bg-center bg-fixed bg-cover w-full min-h-screen z-[0]" style="background-image: url(/images/desktop-background.png)">
             
-            <div class="bg-black/80 w-full h-full top-0 left-0 pb-[80px] lg:pb-0">
+            <div class="bg-black/80 w-full min-h-screen pb-[80px] lg:pb-0">
 
                 <!-- list popup start -->
                     <listaPopUp :small="false"/>

@@ -16,10 +16,11 @@ const router = createRouter({
       return {}
     }
     else {
-      return { 
+      return {
+        el: '#main',
         top: 0,
         behavior: 'smooth',
-       }
+      }
     }
   },
   routes: [
