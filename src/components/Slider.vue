@@ -72,7 +72,6 @@ onMounted(() => {
         :navigation="true"
         :loop="true"
         :grabCursor="true"
-        :centeredSlides="true"
         @slideChange="onSlideChange"
         @swiper="(event) => {slider = event}"
 

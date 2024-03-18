@@ -197,7 +197,6 @@ onMounted( async () => {
 
                         <div 
                             class="hidden lg:block relative w-full mt-20"
-                            v-if="filteredItemsStore.filteredItems.length > 1"
                         >                    
                             <div class="slider w-[75%] mx-auto">
                                 <Slider

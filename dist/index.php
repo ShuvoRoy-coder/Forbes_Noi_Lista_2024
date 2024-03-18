@@ -2,7 +2,7 @@
 
     $url = '/';
 
-    $script = 'assets/index-mk253pa-.js';
+    $script = 'assets/index-2BMhiQoc.js';
     $stylsheet = 'assets/index-cbzejEtk.css';
     
     if(!isset($page)) {
