@@ -5,6 +5,10 @@ import { useFilteredItemsStore } from './stores/filteredItemsStore';
 const filter = useFilteredItemsStore();
 const router = useRouter();
 
+const emits = defineEmits([
+    'filtered'
+]) ;
+
 const selectTag = (tag) => {
     
     filter.selectTag(tag)
