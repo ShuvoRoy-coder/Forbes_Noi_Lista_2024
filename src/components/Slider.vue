@@ -1,6 +1,6 @@
 <script setup>
 
-import { Swiper, SwiperSlide} from 'swiper/vue';
+import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
 import 'swiper/css/bundle';
 import 'swiper/css/free-mode';
@@ -8,15 +8,26 @@ import {Navigation } from 'swiper/modules';
 import { useFilteredItemsStore } from './stores/filteredItemsStore';
 import { useHelpers } from '../composables/useHelpers';
 import { RouterLink, useRoute } from 'vue-router';
-import { ref } from 'vue';
+import { onMounted, watch, ref } from 'vue';
 
+const props = defineProps({
+    initialSlide: {
+        default: 0,
+        type: [String, Number]
+    },
+    slideTo: {
+        default: null,
+        type: [Number]
+    }
+})
 
 const route = useRoute();
 
-//-------- creating url-------------
-const { url } = useHelpers();
+let slider = null;
+const tagChanging = ref(false);
+let tagChangingTimeOut = null
 
-//----------- access the filteredItems--------
+const { url } = useHelpers();
 const filteredItemsStore = useFilteredItemsStore();
 
 const emits = defineEmits([
@@ -24,9 +35,27 @@ const emits = defineEmits([
 ]);
 
 
-const onSlideChange = (event) => {
-    emits('slideChange', event);
+const onSlideChange = () => {
+    if(!tagChanging.value) {
+        emits('slideChange');
+    }
 }
+
+onMounted(() => {
+    watch(() => props.slideTo, () => {
+        if(props.slideTo !== null && slider) {
+
+            clearTimeout(tagChangingTimeOut);
+            tagChanging.value = true;
+
+            slider.slideToLoop(props.slideTo)
+
+           tagChangingTimeOut =  setTimeout(() => {
+                tagChanging.value = false;
+            }, 400)
+        }
+    })
+})
 
 </script>
 
@@ -39,10 +68,13 @@ const onSlideChange = (event) => {
         :modules="[Navigation]"
         :slidesPerView="3"
         :spaceBetween="30"
+        :initialSlide="initialSlide"
         :navigation="true"
         :loop="true"
         :grabCursor="true"
+        :centeredSlides="true"
         @slideChange="onSlideChange"
+        @swiper="(event) => {slider = event}"
 
         :breakpoints="{
             '1380': {
@@ -74,8 +106,8 @@ const onSlideChange = (event) => {
         class="max-w-[1000px]"
     >
         <swiper-slide
-            v-for="(item, index) in filteredItemsStore.filteredItems"
-            :key="item.id"
+            v-for="(item, index) in filteredItemsStore.users"
+            :id="`slide_${item.id}`"
             class="transition-all duration-500 pt-5 cursor-pointer group"
         >   
 

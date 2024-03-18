@@ -1,16 +1,16 @@
 <script setup>
-    import listaPageValue from './listaPageValue.vue';
-    import { ref } from 'vue';
+import listaPageValue from './listaPageValue.vue';
+import { ref } from 'vue';
 
-    defineProps({
-        small: Boolean
-    });
+defineProps({
+    small: Boolean
+});
 
-    const openlistapge = ref(false);
+const openlistapge = ref(false);
 
-    const toggle = () => {
-        openlistapge.value = !openlistapge.value;
-    };
+const toggle = () => {
+    openlistapge.value = !openlistapge.value;
+};
 </script>
 
 <template>

@@ -1,9 +1,5 @@
 <script setup>
-import { useFilteredItemsStore } from './stores/filteredItemsStore';
 import { useHelpers } from '@/composables/useHelpers';
-
-//----------- access the filteredItems--------
-const filteredItemsStore = useFilteredItemsStore();
 
 const { url } = useHelpers();
 

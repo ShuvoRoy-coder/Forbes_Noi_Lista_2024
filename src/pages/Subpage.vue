@@ -1,115 +1,126 @@
 <script setup>
-    import { ref, onBeforeMount, onMounted, watch } from 'vue';
-    import Slider from "@/components/Slider.vue";
-    import volvoBox from "@/components/volvoBox.vue";
-    import listaPopUp from '@/components/listaPopUp.vue'
-    import verticalBanner from "@/components/banner/verticalBanner.vue";
-    import mobileBanner from "@/components/banner/mobileBanner.vue";
-    import filterItem from "@/components/filterItem.vue";
-    import subpageImgDesign from "@/components/subpageImgDesign.vue";
-    import subpageTextArea from "@/components/subpageTextArea.vue";
-    import tovabbButton from "@/components/tovabbButton.vue";
-    import { useRoute } from 'vue-router';
-    import { useFilteredItemsStore } from '@/components/stores/filteredItemsStore';
-    import { useHelpers } from '@/composables/useHelpers';
-    import router from '@/router';
+import { ref, onBeforeMount, onMounted, watch } from 'vue';
+import Slider from "@/components/Slider.vue";
+import volvoBox from "@/components/volvoBox.vue";
+import listaPopUp from '@/components/listaPopUp.vue'
+import verticalBanner from "@/components/banner/verticalBanner.vue";
+import mobileBanner from "@/components/banner/mobileBanner.vue";
+import filterItem from "@/components/filterItem.vue";
+import subpageImgDesign from "@/components/subpageImgDesign.vue";
+import subpageTextArea from "@/components/subpageTextArea.vue";
+import { useRoute } from 'vue-router';
+import { useFilteredItemsStore } from '@/components/stores/filteredItemsStore';
+import { useHelpers } from '@/composables/useHelpers';
+import router from '@/router';
+
+const filteredItemsStore = useFilteredItemsStore();
+const { url } = useHelpers();
+
+const route = useRoute()
+
+const user = ref({});
+
+onBeforeMount(async () => {
     
-    const filteredItemsStore = useFilteredItemsStore();
-    const { url } = useHelpers();
+    filteredItemsStore.init(route.params.tag);
 
-    const route = useRoute()
-
-    const user = ref({});
-
-
-    onBeforeMount(async () => {
-        
-        filteredItemsStore.init(route.params.tag);
-
-        const response = await fetch(url('data.json'))
-        
-        const users = await response.json();
-
-        filteredItemsStore.init(route.params.tag, users);
-    })
-
-    const selectUser = () => {
-        user.value = filteredItemsStore.users.find((user) => user.url == route.params.url);
-    }
-
-    const previousPageURL = () => {
-        const index = filteredItemsStore.filteredItems.findIndex((item) => item.url == route.params.url);
-
-        let previousIndex = 0;
-
-        if(index <= 0) {
-
-            previousIndex = filteredItemsStore.filteredItems.length - 1;
-        }
-        else {
-            previousIndex = index - 1; 
-        }
-
-        return filteredItemsStore.filteredItems[previousIndex].url;
-    }
-
-    const nextPageURL = () => {
-        const index = filteredItemsStore.filteredItems.findIndex((item) => item.url == route.params.url);
-
-        let nextIndex = 0;
-
-        let maxIndex = filteredItemsStore.filteredItems.length - 1;
-
-        if(index >= maxIndex) {
-
-            nextIndex = 0;
-        }
-        else {
-            nextIndex = index + 1; 
-        }
-
-        return filteredItemsStore.filteredItems[nextIndex].url;
-    }
-
-    const onSlideChange = (event) => {
-        const index = event.realIndex;
-
-        const item = filteredItemsStore.filteredItems[index];
-
-        router.push({name: 'subpage', 
-        params: {
-            tag: route.params.tag,
-            url: item.url
-        },
-        query: {
-            savedPosition: true 
-        }
-    })
-
-    }
-
-    onMounted( async () => {
-
-        selectUser()
-
-        // fetch the user information when params change
-        watch(
-            () => [route.params.url, route.params.tag],
-            () => {
-                selectUser()
-            }
-        )
-    })
-
-     import listaPageValue from '@/components/listaPageValue.vue';
-
-    const openlistapge = ref(false);
-
-    const toggle = () => {
-        openlistapge.value = !openlistapge.value;
-    };
+    const response = await fetch(url('data.json'))
     
-    
+    const users = await response.json();
+
+    filteredItemsStore.init(route.params.tag, users);
+})
+
+const selectUser = () => {
+    user.value = filteredItemsStore.users.find((user) => user.url == route.params.url);
+}
+
+const previousPage = () => {
+    const index = filteredItemsStore.users.findIndex((item) => item.url == route.params.url);
+
+    let previousIndex = 0;
+
+    if(index <= 0) {
+
+        previousIndex = filteredItemsStore.users.length - 1;
+    }
+    else {
+        previousIndex = index - 1; 
+    }
+
+    return filteredItemsStore.users[previousIndex];
+}
+
+const nextPage = () => {
+    const index = filteredItemsStore.users.findIndex((item) => item.url == route.params.url);
+
+    let nextIndex = 0;
+
+    let maxIndex = filteredItemsStore.users.length - 1;
+
+    if(index >= maxIndex) {
+
+        nextIndex = 0;
+    }
+    else {
+        nextIndex = index + 1; 
+    }
+
+    return filteredItemsStore.users[nextIndex];
+}
+
+const onSlideChange = () => {
+    setTimeout(() => {
+        const slide = document.querySelector('.swiper-slide-active');
+
+        if(slide) {
+
+            console.log(slide.id);
+
+            const item = filteredItemsStore.users.find((user) => `slide_${user.id}` == slide.id);
+
+            router.push({
+                name: 'subpage', 
+                params: {
+                    tag: item.tag,
+                    url: item.url
+                },
+                query: {
+                    savedPosition: true 
+                }
+            })
+        }
+    }, 200)
+
+}
+
+const initialSlide = (route.params.url.split('_')[0] ?? 1) - 1;
+const slideTo = ref(null);
+
+const slideToTag = (tag) => {
+    slideTo.value = filteredItemsStore.users.findIndex(user => user.tag == tag);
+    console.log(slideTo.value)
+}
+
+onMounted( async () => {
+
+    selectUser()
+
+    // fetch the user information when params change
+    watch(
+        () => [route.params.url, route.params.tag],
+        () => {
+            selectUser()
+            filteredItemsStore.selectTag(route.params.tag)
+        }
+    )
+    watch(
+        () => [route.params.tag],
+        () => {
+            filteredItemsStore.selectTag(route.params.tag)
+        }
+    )
+})
 </script>
 
 <template>
@@ -132,7 +143,9 @@
                         <!-- left area end -->
                         <!-- right and filter area start  -->
 
-                        <filterItem/>
+                        <filterItem
+                            @filtered="slideToTag"
+                        />
 
                         <!-- right area end -->
                     </div>
@@ -189,6 +202,8 @@
                             <div class="slider w-[75%] mx-auto">
                                 <Slider
                                     @slideChange="onSlideChange"
+                                    :initialSlide="initialSlide"
+                                    :slideTo="slideTo"
                                 />
                             </div>
                         </div>
@@ -207,7 +222,7 @@
                     v-if="filteredItemsStore.filteredItems.length > 1"
                 >
 
-                <router-link :to="{name: subpage, params: {tag: route.params.tag, url: previousPageURL() }}"
+                <router-link :to="{name: 'subpage', params: {tag: previousPage().tag, url: previousPage().url }}"
                 class="flex items-center justify-start"
                 >   
                     <div class="w-[33px] h-[20px] rotate-180">
@@ -219,7 +234,7 @@
                     <listaPopUp :small="true"/>
                 
 
-                <router-link :to="{name: subpage, params: {tag: route.params.tag, url: nextPageURL() }}"
+                <router-link :to="{name: 'subpage', params: {tag: nextPage().tag, url: nextPage().url }}"
                     class="flex items-center justify-end"
                 >
                     <div class="w-[33px] h-[20px]">

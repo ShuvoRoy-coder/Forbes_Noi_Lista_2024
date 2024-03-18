@@ -1,24 +1,26 @@
 <script setup>
 
-    import volvoBox from '@/components/volvoBox.vue';
-    import tovabbButton from '@/components/tovabbButton.vue';
-    import horizontalBanner from '@/components/banner/horizontalBanner.vue';
-    import { ref, onBeforeMount } from 'vue';
+import volvoBox from '@/components/volvoBox.vue';
+import tovabbButton from '@/components/tovabbButton.vue';
+import horizontalBanner from '@/components/banner/horizontalBanner.vue';
+import { useFilteredItemsStore } from '@/components/stores/filteredItemsStore';
+import { onBeforeMount } from 'vue';
+import { useHelpers } from '@/composables/useHelpers';
 
-    //----------- access the filteredItems--------
-    import { useFilteredItemsStore } from '@/components/stores/filteredItemsStore';
-    const filteredItemsStore = useFilteredItemsStore();
+const { url } = useHelpers();
 
-    onBeforeMount(async () => {
-        
-        filteredItemsStore.init();
+const filteredItemsStore = useFilteredItemsStore();
 
-        const response = await fetch(url('data.json'))
-        
-        const users = await response.json();
+onBeforeMount(async () => {
+    
+    filteredItemsStore.init();
 
-        filteredItemsStore.init(users);
-    })
+    const response = await fetch(url('data.json'))
+    
+    const users = await response.json();
+
+    filteredItemsStore.init(null, users);
+})
 
 
 

@@ -1,17 +1,16 @@
 <script setup>
-    import { useRouter } from 'vue-router';
+import { useRouter } from 'vue-router';
 import { useFilteredItemsStore } from './stores/filteredItemsStore';
+
+const filter = useFilteredItemsStore();
+const router = useRouter();
+
+const selectTag = (tag) => {
     
-    const filter = useFilteredItemsStore();
-
-    const router = useRouter();
-
-    const selectTag = (tag) => {
-        
-        
-        filter.selectTag(tag)
-        router.push({ name: 'subpage', params: { tag: filter.getSelectedTag, url: filter.getSelectedUrl(0) } })
-    }
+    filter.selectTag(tag)
+    emits('filtered', tag);
+    router.push({ name: 'subpage', params: { tag: filter.getSelectedTag, url: filter.getSelectedUrl(0) } })
+}
 
 </script>
 

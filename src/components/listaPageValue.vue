@@ -1,23 +1,23 @@
 <script setup>
-    import { useFilteredItemsStore } from './stores/filteredItemsStore';
-    import { RouterLink, useRoute } from 'vue-router';
-    import volvoBox from './volvoBox.vue';
-    import { useHelpers } from '../composables/useHelpers';
-    import { ref, watch } from 'vue';
-    
-    const { url } = useHelpers();
-    const filteredItemsStore = useFilteredItemsStore();
-    const route = useRoute();
+import { useFilteredItemsStore } from './stores/filteredItemsStore';
+import { RouterLink, useRoute } from 'vue-router';
+import volvoBox from './volvoBox.vue';
+import { useHelpers } from '../composables/useHelpers';
+import { watch } from 'vue';
 
-    const emits = defineEmits([
-        'closePopup'
-    ]);
+const { url } = useHelpers();
+const filteredItemsStore = useFilteredItemsStore();
+const route = useRoute();
 
-    watch(() => [route.params.tag, route.params.url],
-        () => {
-            emits('closePopup');
-        }
-    )
+const emits = defineEmits([
+    'closePopup'
+]);
+
+watch(() => [route.params.tag, route.params.url],
+    () => {
+        emits('closePopup');
+    }
+)
 
 </script>
 

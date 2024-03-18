@@ -1,8 +1,4 @@
 <script setup>
-import { useHelpers } from '@/composables/useHelpers';
-
-const { url } = useHelpers();
-
 const props = defineProps({
     user: {
         type: Object,
