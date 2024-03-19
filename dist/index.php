@@ -1,6 +1,6 @@
 <?php
 
-    $url = 'https://Stage.forbes.hu/extra/';
+    $url = 'https://stage.forbes.hu/extra/';
 
     $script = 'assets/index-cDmvl_oT.js';
     $stylsheet = 'assets/index-UOdis9_Z.css';
@@ -26,7 +26,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script>
-      window.mainUrl = "/";
+      window.mainUrl = ""<?= $url ?>"";
     </script>
     
     <!-- share area -->
