@@ -442,7 +442,7 @@
   {
     "id" : 41,
     "serial" : 1,
-    "tag" : "kozlet",
+    "tag" : "kozelet",
     "tag_name" : "közélet",
     "image" : "kozelet-1-levai-aniko.png",
     "name" : "Lévai Anikó",
@@ -453,7 +453,7 @@
   {
     "id" : 42,
     "serial" : 2,
-    "tag" : "kozlet",
+    "tag" : "kozelet",
     "tag_name" : "közélet",
     "image" : "kozelet-2-schmidt-maria.png",
     "name" : "Schmidt Mária",
@@ -464,7 +464,7 @@
   {
     "id" : 43,
     "serial" : 3,
-    "tag" : "kozlet",
+    "tag" : "kozelet",
     "tag_name" : "közélet",
     "image" : "kozelet-3-kaminski-fanny.png",
     "name" : "Kaminski Fanny",
@@ -475,7 +475,7 @@
   {
     "id" : 44,
     "serial" : 4,
-    "tag" : "kozlet",
+    "tag" : "kozelet",
     "tag_name" : "közélet",
     "image" : "kozelet-4-pottyondy-edina.png",
     "name" : "Pottyondy Edina",
@@ -486,7 +486,7 @@
   {
     "id" : 45,
     "serial" : 5,
-    "tag" : "kozlet",
+    "tag" : "kozelet",
     "tag_name" : "közélet",
     "image" : "kozelet-5-duro-dora.png",
     "name" : "Dúró Dóra",
@@ -497,7 +497,7 @@
   {
     "id" : 46,
     "serial" : 6,
-    "tag" : "kozlet",
+    "tag" : "kozelet",
     "tag_name" : "közélet",
     "image" : "kozelet-6-donath-anna.png",
     "name" : "Donáth Anna",
@@ -508,7 +508,7 @@
   {
     "id" : 47,
     "serial" : 7,
-    "tag" : "kozlet",
+    "tag" : "kozelet",
     "tag_name" : "közélet",
     "image" : "kozelet-7-dobrev-klara.png",
     "name" : "Dobrev Klára",
@@ -519,7 +519,7 @@
   {
     "id" : 48,
     "serial" : 8,
-    "tag" : "kozlet",
+    "tag" : "kozelet",
     "tag_name" : "közélet",
     "image" : "kozelet-8-baranyi-krisztina.png",
     "name" : "Baranyi Krisztina",
@@ -530,7 +530,7 @@
   {
     "id" : 49,
     "serial" : 9,
-    "tag" : "kozlet",
+    "tag" : "kozelet",
     "tag_name" : "közélet",
     "image" : "kozelet-9-mager-andrea.png",
     "name" : "Mager Andrea",
@@ -541,7 +541,7 @@
   {
     "id" : 50,
     "serial" : 10,
-    "tag" : "kozlet",
+    "tag" : "kozelet",
     "tag_name" : "közélet",
     "image" : "kozelet-10-pardavi-marta.png",
     "name" : "Pardavi Márta",
@@ -552,7 +552,7 @@
   {
     "id" : 51,
     "serial" : 11,
-    "tag" : "kozlet",
+    "tag" : "kozelet",
     "tag_name" : "közélet",
     "image" : "kozelet-10-1szentkiralyi-alexandra.png",
     "name" : "Szentkirályi Alexandra",
