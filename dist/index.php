@@ -1,9 +1,9 @@
 <?php
 
-    $url = 'https://stage.forbes.hu/extra/';
+    $url = 'https://stage.forbes.hu/extra/a-legbefolyasosabb-magyar-nok-2024/';
 
-    $script = 'assets/index-cDmvl_oT.js';
-    $stylsheet = 'assets/index-UOdis9_Z.css';
+    $script = 'assets/index-xyaEC2ws.js';
+    $stylsheet = 'assets/index-XxuGIcAE.css';
     
     if(!isset($page)) {
         $page = [
@@ -14,7 +14,7 @@
 
     if(!isset($metaTitle)) {
         $metaTitle = 'A legbefolyásosabb magyar nők 2024';
-        $metaDesc = 'Tizedik alkalommal állítottuk össze a legbefolyásosabb magyar nők listáját üzlet, média, kultúra és közélet kategóriákban.';
+        $metaDesc = 'Állócsillagok, újoncok és visszatérők; önerőből, függetlenként építkezők, és kipróbált, jól bevált bizalmasok a magyar üzleti élet, a kultúra, a médiapiac, vagy éppen a politikai közélet területein. Egyedülálló tudás, unikális hatalom, pénzügyi vagy informális kapcsolati tőke, gigantikus elérés, megbonthatatlan családi és baráti kötelékek. Idén is utánajártunk, mit jelent ma Magyarországon a női befolyás. Itt a tizedik, jubileumi magyar női befolyásos lista, nézzük, mit lehet ünnepelni.';
     }
 ?>
 
@@ -26,7 +26,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script>
-      window.mainUrl = ""<?= $url ?>"";
+      window.mainUrl = "<?= $url ?>";
     </script>
     
     <!-- share area -->

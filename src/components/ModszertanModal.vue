@@ -71,38 +71,17 @@ watch(() => props.showPopup, () => {
                             @scroll="(event) => {emits('modalScroll', event)}"
                         >
                             <div>
-                                <div class="font-[500] text-[18px] mt-4">
-                                    Kik kerülnek fel a listára?
+                                <div>
+                                    A befolyáslista nem úgy készül, mint a Forbes alapvetően számolásra és adatgyűjtésre alapozó listái. Mivel a befolyás nem csak objektív tényezők alapján állapítható meg, fontosak a háttérinformációk és a nehezebben mérhető tényezők is: hogy az adott szereplő milyen kapcsolatot ápol a piaca és az ország piacok, vagy más befolyásos vezetőivel, milyen lobbierővel bír a gazdasági vagy kormányzati körökben, mekkora az autonómiája, vállal-e szerepet szakmai vagy társadalmi szervezetekben, számon tartják-e meghatározó informális körökben, és hogy pozíciója mit jelent a mai Magyarország üzleti és politikai realitásában.
                                 </div>
                                 <div class="mt-5">
-                                    Az ötven leggazdagabb magyar között olyan magyar milliárdosok szerepelnek, akik meghatározó üzleti tevékenységet folytatnak Magyarországon, vagy akiket üzleti érdekeltségeik ide kötnek. Módszertanunk szerint magyar az, akinek van magyar állampolgársága (a kettős állampolgárság nem kizáró ok), a magyarországi lakhely viszont nem feltétel. A testvérpárokat egyben számoltuk, ha érdekeltségeik legalább kilencven százaléka egyenlő arányban oszlik meg közöttük.
-                                </div>
-                                <div class="font-[500] text-[18px] mt-5">
-                                    Hogyan számoltunk?
+                                    A befolyás erejét olyan objektív és szubjektív tényezők mérlegelésével állapította meg a szerkesztőség, mint a vezető felelősségi körébe tartozó cég mérete, a büdzsé és létszám, ami fölött diszponál, valamint pályájának íve. Az Üzlet kategóriában ezáltal a legnagyobb árbevételű magyarországi vállalatok csúcsvezetői, második számú vezetői, pénzügyi vezetők és olyan befolyásos nők kerültek be, akik bár nem vezetnek nagyvállalatot, de a kapcsolataik, befolyásuk, hatásuk nagy, akár egy-egy szűk területen.
                                 </div>
                                 <div class="mt-5">
-                                    A vagyonbecslés alapja a cégértékelés. A társaságokat az amerikai Forbes módszertanát alapul véve értékeltük. Ahol lehetett, az EBITDA alapján számoltunk, leginkább ez alkalmas arra, hogy megmutassa a cégek pénztermelő képességét. A nemzetközi vállalatértékelési gyakorlat alapján az EBITDA-t felszoroztuk egy iparági szorzóval, majd az így kapott értékből levontuk a vállalat hosszú lejáratú kötelezettségeit, és hozzáadtuk a készpénzállományát.
+                                    A Kultúra, a Média és a Közélet kategóriák esetében az egyes szereplőket és piacokat ismerő háttéremberek segítségével olyan szubjektív tényezőket is vizsgáltunk, amelyekkel a közbeszéd, a közgondolkodás, azaz a társadalomra gyakorolt hatás mérhető. Magyarán az, hogy az adott nőnek milyen lobbiereje van a piacán vagy tevékenységi területén; mennyire hallatja hangját társadalmi és szakmai ügyekben; e megszólalásoknak van-e, volt-e az elmúlt évben érdemi hatása a magyar társadalom működésére vagy formális és informális körökre; netán hogy vállal-e akár politikai kockázatot környezete fejlesztéséért, társadalmi ügyek előmozdításáért.
                                 </div>
                                 <div class="mt-5">
-                                    Nem termelő cégeknél (azaz például pénzügyi szolgáltatóknál, ingatlanfejlesztőknél) is az amerikai anyalap útmutatása alapján jártunk el, itt a vállalkozásban felhalmozott értékből – leginkább eszközökből – indulunk ki, és levonjuk az összes kötelezettséget. Így jártunk el az állami megrendeléseknek nagy mértékben kitett, vagy állami koncessziókat tulajdonló cégeknél is. Az állami kitettséget az elmúlt három év közbeszerzésen elnyert megbízásainak összege alapján vizsgáltuk; ahol ez a legfrissebb éves árbevétel legalább nyolcvan százalékát elérte, ott nem tartottuk indokoltnak a piaci, EBITDA-alapú megközelítést, mivel a pénztermelő képesség nagyban függ az állammal kötött szerződésektől. Ugyanígy vizsgáltuk a tendergyőztesek alvállalkozóit is.
-                                </div>
-                                <div class="mt-5">
-                                    Szintén az amerikai Forbes módszertanát követve, valamint magyar M&A tanácsadókkal egyeztetve egységesen tízszázalékos likviditási diszkontot alkalmaztunk a privát cégekre. Ennek az az oka, hogy ezek a társaságok kevésbé likvidek, mint a tőzsdei cégek, eladásuk az egyre inkább jellemző hatósági engedélyeztetési eljárások miatt költségesebb is. Startupok esetében az eddig kapott tőkebefektetésekből és piaci információkból indultunk ki.
-                                </div>
-                                <div class="mt-5">
-                                    A 2023-as listán a módszertant azzal frissítettük, hogy minden magyarországi központú termelőcégnél a legfrissebb EBITDA helyett az elmúlt három év EBITDA-jának átlaga alapján számoljuk ki a becsült cégértéket. Több, általunk megkérdezett M&A tanácsadó szerint az elmúlt időszak inflációs környezetében a piac jelenleg így árazza a magyar vállalatokat, az utóbbi hónapokban minden potenciális felvásárló, ha ajánlatot tesz, az elmúlt évek EBITDA-jának átlaga alapján áraz.
-                                </div>
-                                <div class="mt-5">
-                                    Az osztalékoknál levontuk az adókat, ahol tudtuk, felmértük az adott tulajdonos egyéb érdekeltségeinek finanszírozási igényét, illetve beszámítottuk az elmúlt évek osztalékainak egy részét is.
-                                </div>
-                                <div class="mt-5">
-                                    Munkánkat az Opten céginformáció-szolgáltató adatai és kimutatásai segítették. A cégértékelésben a Concorde MB Partners munkatársai adtak tanácsot. Segítségünkre volt kimutatásaival az Ingatlan.com is. Jogi ügyekben a Társaság a Szabadságjogokért (TASZ) szakértői segítik munkánkat.
-                                </div>
-                                <div class="font-[500] text-[18px] mt-5">
-                                    Milyen adatokat használtunk fel?
-                                </div>
-                                <div class="mt-5">
-                                    Publikusan elérhető információkból dolgoztunk, ahol lehetett, konszolidált adatokat használtunk, ennek híján az elérhető információk alapján magunk konszolidáltuk az eredményeket. A 2023. december 1-jéig feltöltött éves beszámolókból dolgoztunk, vagyis a becslések alapját a 2022-es üzleti évről szóló hivatalos beszámolók adták. A részvényeknél, devizaárfolyamoknál a legfrissebb adatokkal számoltunk.
+                                    Összefoglalva idén is elsősorban azt vizsgáltuk: mit jelent egy-egy adott nő személye, pozíciója és ezek kettőse a mai Magyarország politikai és üzleti életben. A pénzügyi és létszámadatokat a Partner Control adatbázisából gyűjtöttük ki, és a legtöbb esetben az utolsó elérhető teljes, azaz a 2022-es teljes pénzügyi évet érintő adatokat tüntettünk fel. Ahol rendelkezésünkre állt 2023-as előzetes adat, külön jelezzük. A további információk gyűjtésében tucatnyi háttérbeszélgetés, informátori és sajtóértesülések segítették munkánkat.
                                 </div>
                             </div>
                         </div>

@@ -43,11 +43,11 @@ import ModszertanModal from './ModszertanModal.vue';
             <div class="mx-auto w-[189px] sm:w-[291px] -translate-y-3 sm:-translate-y-4">
                 <img src="/images/magyar.svg" alt="forbes-logo">
             </div>
-            <div class="w-full">
+            <div class="w-full px-3">
                 <div class="text-[#833E17] font-bold text-[10px] sm:text-[14px] leading-normal text-center">
-                    Vezető szerkesztő: Bánáti Anna <br>
-                    Összeállította: Bánáti Anna, Golovics Milán, Harsch Leila <br>
-                    Illusztráció: Csuth Péter, Kocsis Ágnes
+                    SZERKESZTETTE: TÓTH-BIRÓ MARIANNA <br>
+                    ÍRTA: BÁNÁTI ANNA, G. TÓTH ILDA, TÓTH-BIRÓ MARIANNA <br>
+                    FOTÓK: Mohai Balázs, a Forbes archív képei, az érintettek LinkedIn-profilfotói, cégeik hivatalos oldalán található életrajzi vagy egyéb fotók, MTI Fotóbank, közszereplői Facebook-oldalak
                 </div>
                 
                 <button class="pt-3 cursor-pointer font-bold text-[10px] sm:text-[14px] leading-normal text-[#833E17] hover:text-[#FFB489] transition-all block mx-auto underline" 

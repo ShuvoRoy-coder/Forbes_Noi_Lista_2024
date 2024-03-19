@@ -2,511 +2,562 @@
   {
     "id" : 1,
     "serial" : 1,
-    "tag" : "üzlet",
+    "tag" : "uzlet",
+    "tag_name" : "üzlet",
     "image" : "uzlet-1-hegedus-eva.png",
     "name" : "Hegedűs Éva",
     "url" : "1-hegedus-eva",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "elnök-vezérigazgató – Gránit Bank; a Magyar Bankszövetség elnökségi tagja",
+    "paragraph" : "1200 milliárd forintot meghaladó mérlegfőösszegével Magyarország kilencedik legnagyobb kereskedelmi bankjaként zárta 2023-at a Gránit Bank Zrt., amit Hegedüs Éva alapítása óta vezet. Bő két éve, hogy Orbán Viktor miniszterelnök veje, Tiborcz István bevásárolta magát a bankba, ám az élén azóta is Hegedüs áll, a munkájára rálátók többsége szerint befolyása Tiborcz érkezésével mintha még nőtt is volna. \nMérlegfőösszeg: 1200 milliárd forint (2023-as becslés)\n"
   },
   {
     "id" : 2,
     "serial" : 2,
-    "tag" : "üzlet",
+    "tag" : "uzlet",
+    "tag_name" : "üzlet",
     "image" : "uzlet-2-balogh-gabriella.png",
     "name" : "Balogh Gabriella",
     "url" : "2-balogh-gabriella",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "igazgatósági tag – OTP; igazgatósági tag – Richter Gedeon Nyrt.; társtulajdonos – Net Média Zrt., Step Consulting Kft., Goodstep Consulting Kft.; társtulajdonos – Brain Bar",
+    "paragraph" : "Két év alatt közel megduplázta árbevételét Bán Zoltánnal közös médiacége, a Portfolio.hu-t is működtető Net Média Zrt. Míg a covid sújtotta 2020-ban 1,8 milliárd forinttal zárták az évet, 2022-ben már meghaladták a 3,3 milliárd forintos forgalmat – ez egy év alatt is 29 százalékos emelkedés. Egyéb tisztségei mellett továbbra is Csányi Sándor OTP-vezér egyik bizalmi embere, akinek neve és jelenléte továbbra is „húzóerővel” bír.\n\nÁrbevétel: 3,3 milliárd forint (Net Média Zrt.)\n"
   },
   {
     "id" : 3,
     "serial" : 3,
-    "tag" : "üzlet",
+    "tag" : "uzlet",
+    "tag_name" : "üzlet",
     "image" : "uzlet-3-walter-katalin.png",
     "name" : "Walter Katalin",
     "url" : "3-walter-katalin",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "vezérigazgató – Budapesti Közlekedési Központ (BKK)\n",
+    "paragraph" : "Walter az elmúlt években gazdasági szemléletével igyekezett ráncba szedni a válságban lévő BKK-t. A budapesti közösségi közlekedés továbbra is veszteséges, de a menetdíjakból származó bevétel már meghaladja a covid előtti szintet. Walter befolyása és ráhatása egyértelműen felértékelődött a választási évben, egy-egy komolyabb döntése szavazatokhat hozhat vagy vihet el. \nMérlegfőösszeg: 146 milliárd forint\n"
   },
   {
     "id" : 4,
     "serial" : 4,
-    "tag" : "üzlet",
+    "tag" : "uzlet",
+    "tag_name" : "üzlet",
     "image" : "uzlet-4-orban-rahel.png",
     "name" : "Orbán Ráhel",
     "url" : "4-orban-rahel",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : " alapító, tulajdonos – Odu Store; ügyvezető – BDPST Koncept Kft.\n",
+    "paragraph" : "Orbán Ráhel nem a hozzá köthető, és valójában veszteséges cégek miatt kerül a legbefolyásosabbak közé: a miniszterelnök lánya évekig szerepelt listánk közélet kategóriájában is, ám befolyását az elmúlt időszakban inkább az üzleti életben érvényesíti, például a hozzá több szálon is kötődő Magyar Turisztikai Ügynökségben.\n"
   },
   {
     "id" : 5,
     "serial" : 5,
-    "tag" : "üzlet",
+    "tag" : "uzlet",
+    "tag_name" : "üzlet",
     "image" : "uzlet-5-solti-andrea.png",
     "name" : "Solti Andrea",
     "url" : "5-solti-andrea",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : " igazgatósági elnök, kelet-közép-európai HR-igazgató – Shell Hungary Zrt.\n",
+    "paragraph" : "A legfrissebb beszámolók alapján az ársapkás 2022-t a rekordbevétel (447 milliárd forint) mellett jókora, 15 milliárdos veszteséggel zárta a Shell, a 2023-as adatok csak nyár elején lesznek publikusak. 2021-ben ugyanakkor Czakó Borbálától átvette a Hungarian Business Leaders Forum (HBLF) vezetését, új életet lehelve a szervezetbe, és befolyásának jelentős hátszelet adva.\nÁrbevétel: 447 milliárd forint (Shell Hungary Zrt.)\n"
   },
   {
     "id" : 6,
     "serial" : 6,
-    "tag" : "üzlet",
+    "tag" : "uzlet",
+    "tag_name" : "üzlet",
     "image" : "uzlet-6-heiszler-gabriella.png",
     "name" : "Heiszler Gabriella",
     "url" : "6-heiszler-gabriella",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "ügyvezető igazgató – Spar Magyarország\n",
+    "paragraph" : "Tovább bővült a SPAR Magyarország felsővezetése tavaly év elején, ám az első számú vezető továbbra is Heiszler maradt, aki az Interspar és online értékesítésért, az élelmiszer-termelésért, a terjeszkedésért, a gazdasági területért, a belső ellenőrzésért, az üzleti folyamatszervezésért, a jogügyért, a HR-ért, a vállalati kommunikációért és a fenntarthatósági stratégiáért felel.\nÁrbevétel: 766 milliárd forint\n"
   },
   {
     "id" : 7,
     "serial" : 7,
-    "tag" : "üzlet",
+    "tag" : "uzlet",
+    "tag_name" : "üzlet",
     "image" : "uzlet-7-czako-borbala.png",
     "name" : "Czakó Borbála",
     "url" : "7-czako-borbala",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "igazgatósági tag – Nemzeti Ménesbirtok és Tangazdaság; tanácsadótestület elnöke – 4iG Nyrt.; igazgatósági tag – GYSEV Zrt.\n",
+    "paragraph" : "A legbefolyásosabb nők között minden bizonnyal Czakónak van az egyik leginkább szerteágazó és mozgósítható kapcsolatrendszere, amit színes karrierjének köszönhet: az elmúlt évtizedekben volt londoni nagykövet, az EY globális partnere, és a Világbank magyar leányvállalatának igazgatója is."
   },
   {
     "id" : 8,
     "serial" : 8,
-    "tag" : "üzlet",
+    "tag" : "uzlet",
+    "tag_name" : "üzlet",
     "image" : "uzlet-8-meszaros-beatrix.png",
     "name" : "Mészáros Beatrix",
     "url" : "8-meszaros-beatrix",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "a leányvállalatokat irányító vezérigazgató-helyettes – Magyar Bankholding; társtulajdonos – Fejér B. Á. L. Zrt.\n",
+    "paragraph" : "Az elmúlt években egy sor korábbi felügyelőbizottsági és igazgatósági tagságtól megszabadult a leggazdagabb magyar, Mészáros Lőrinc lánya. Ő felel ugyanakkor apja nemrég létrejött gigabankjának, a Magyar Bankholdingnak a leányvállalataiért, például az Euroleasing Zrt.-ért is, amely  megszerezte a Rose d’Or nevű szuperjachtot. Forrásaink továbbra is egyetértenek abban, hogy befolyását inkább az MBH mérete, valamint pozíciója adja, mintsem az egyéni érdekérvényesítő képessége.\n"
   },
   {
     "id" : 9,
     "serial" : 9,
-    "tag" : "üzlet",
+    "tag" : "uzlet",
+    "tag_name" : "üzlet",
     "image" : "uzlet-9-pistyur-vera.png",
     "name" : "Pistyur Vera",
     "url" : "9-pistyur-vera",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "társalapító, partner – Oktogon Ventures; alapító, ügyvezető – Bridge Budapest\n",
+    "paragraph" : "Stabil és nehezen megkerülhető szereplő a piacon: részben Fehér Gyula Ustream-alapítóval közös kockázatitőke-cégük, az Oktogon Ventures, részben az üzleti ökoszisztémát építő nonprofit, a Bridge Budapest révén. Háttérbeszélgetéseink alapján Pistyurnál valószínűleg senki nem tett többet itthon az etikus üzleti kultúra felépítéséért, ennek megfelelően az üzleti világban felépített kapcsolatai kiemelkedőek, az állami, kormányzati világban viszont nincs benne.\n"
   },
   {
     "id" : 10,
     "serial" : 10,
-    "tag" : "üzlet",
+    "tag" : "uzlet",
+    "tag_name" : "üzlet",
     "image" : "uzlet-10-fabian-agnes.png",
     "name" : "Fábián Ágnes",
     "url" : "10-fabian-agnes",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : " ügyvezető igazgató – Henkel Magyarország\n",
+    "paragraph" : "2011 óta tölti be az ügyvezető igazgatói posztot a százötven éve még kis családi vállalkozásnak indult cégben, kinevezése előtt kilenc évig regionális vezető volt a Henkel bécsi közép- és kelet-európai központjában. Pozíciója mellett fontos tényező a befolyásában a Joint Venture Szövetség is, mely februárban stratégiai partnerségi megállapodást írt alá a Nemzetgazdasági Minisztériummal.\nÁrbevétel: 93 milliárd forint\n"
   },
   {
     "id" : 11,
     "serial" : 11,
-    "tag" : "üzlet",
+    "tag" : "uzlet",
+    "tag_name" : "üzlet",
     "image" : "uzlet-11-blasko-nikoletta.png",
     "name" : "Blaskó Nikoletta",
     "url" : "11-blasko-nikoletta",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "alapító-tulajdonos, ügyvezető – ACG Reklámügynökség",
+    "paragraph" : "„Beáll a jó ügyek mögé” – Blaskóról szinte mindenki azt emeli ki, hogy mennyi mindent csinál saját reklámügynöksége útjának egyengetése mellett. Az egyik legaktívabb igazgatósági tag a HBLF-ben, év végén újabb négy évre megválasztották a Maksz élére, és ő volt a motorja az UNICEF szeptemberi Pop-Up Store & More rendezvényének is. Egyértelműen felívelő pályán van, most érnek be az építkezései. \nÁrbevétel: 2,4 milliárd forint\n"
   },
   {
     "id" : 12,
     "serial" : 12,
-    "tag" : "üzlet",
+    "tag" : "uzlet",
+    "tag_name" : "üzlet",
     "image" : "uzlet-12-liptay-gabriella.png",
     "name" : "Liptay Gabriella",
     "url" : "12-liptay-gabriella",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "marketing és kommunikációs igazgató – KPMG Hungarymarketing és kommunikációs igazgató – KPMG Hungary\n",
+    "paragraph" : "Kapcsolati tőkéje megkérdőjelezhetetlen, egyik forrásunk egyenesen „networkfélistennek” tartja, aki mindenkit ismer és előszeretettel köt össze embereket. Tőkéjét tovább erősíti a KPMG adta presztízs, de a kezdetek óta meghatározó, aktív tagja az Egyenlítő Alapítványnak is, és segítette a Highlights of Hungary, az Art Market Budapest, az Independent Media Education Center, a Magyar Állami Operaház és a Ludwig Múzeum munkáját is.\n"
   },
   {
     "id" : 13,
     "serial" : 13,
-    "tag" : "üzlet",
+    "tag" : "uzlet",
+    "tag_name" : "üzlet",
     "image" : "uzlet-13-erdos-agnes-uj.png",
     "name" : "Erdős Ágnes",
     "url" : "13-erdos-agnes",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "vezérigazgató-helyettes – Bank of China CEE; alelnök – Bank of China Limited Magyarországi Fióktelepe\n",
+    "paragraph" : "Tizenegy éve, hogy kinevezték a Bank of China CEE vezérigazgató-helyettesévé. A Bank of China a Bankszövetség egyik legnagyobb szereplője, ám a szektoron kívül kevesen ismerik az eredetileg jogász végzettségű Erdős nevét: a banknak nincsen lakossági tevékenysége Magyarországon, és Erdős nem aktív sem a social mediában, sem a nyilvánosság más fórumain.\nMérlegfőösszeg: 2429 milliárd forint (anyabank)\n"
   },
   {
     "id" : 14,
     "serial" : 14,
-    "tag" : "üzlet",
+    "tag" : "uzlet",
+    "tag_name" : "üzlet",
     "image" : "uzlet-14-hermann-kamilla.png",
     "name" : "Herman Kamilla",
     "url" : "14-hermann-kamilla",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "partner, kisebbségi tulajdonos – Indotek Group\n",
+    "paragraph" : "Bár kifejezetten kerüli a nyilvánosságot, Hermann Kamilla az indulás óta kulcsembere az Indotek csoportnak. Az édesapja családi vállalkozásából kinőtt cégcsoport az elmúlt három évtizedben Magyarország egyik legfontosabb befektetéskezelőjévé vált. Hermann a belső folyamatok összehangolásáért, a fenntarthatósági és társadalmi szerepvállalásért felel, és az ő feladatköre a plázák marketingjének és arculatának kialakítása is – az üzletfejlesztés volt férje, a többségi tulajdonos vezérigazgató, Jellinek Dániel kezében van.\n"
   },
   {
     "id" : 15,
     "serial" : 15,
-    "tag" : "üzlet",
+    "tag" : "uzlet",
+    "tag_name" : "üzlet",
     "image" : "uzlet-15-varga-eszter-uj.png",
     "name" : "Varga Eszter",
     "url" : "15-varga-eszter",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "társtulajdonos, igazgatósági tag – Pannonhitel Zrt.\n",
+    "paragraph" : "Varga tíz éve társtulajdonosa a kisvállalkozásokat hitelező, közel tízmilliárdos mérlegfőösszegű Pannonhitel Zrt.-nek, mellette az International Coaching Federation (ICF) által is akkreditált nemzetközi coach. Az elmúlt egy évben az RTL-en futó üzleti reality, a Cápák között kapcsán lett ismert.\nMérlegfőösszeg: 10 milliárd forint\n"
   },
   {
     "id" : 16,
     "serial" : 1,
-    "tag" : "üzlet-nemzetközi",
+    "tag" : "uzlet-nemzetkozi",
+    "tag_name" : "üzlet-nemzetközi",
     "image" : "uzlet-nemzetkozi-1-orban-anita.png",
     "name" : "Orbán Anita",
     "url" : "16-orban-anita",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "globális kormányzati kapcsolatokért felelős igazgató – Vodafone;\n",
+    "paragraph" : "Két évig irányította a magyar Vodafone PR-, kommunikációs és kormányzati kapcsolati ügyeit, ma globális pozícióban, csoportszinten foglalkozik a Vodafone kormányzati ügyeivel. A telekommunikációs piac előtt komoly karriert épített az energetikában, számos pozícióban még most is képviselteti magát."
   },
   {
     "id" : 17,
     "serial" : 2,
-    "tag" : "üzlet-nemzetközi",
+    "tag" : "uzlet-nemzetkozi",
+    "tag_name" : "üzlet-nemzetközi",
     "image" : "uzlet-nemzetkozi-2-szabo-melinda.png",
     "name" : "Szabó Melinda",
     "url" : "17-szabo-melinda",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "vezérigazgató – cseh és szlovák Telekom",
+    "paragraph" : "Korábban a Magyar Telekom kereskedelmi vezérigazgató-helyettese volt, majd másfél éve nemzetközi pozíciót kapott, a Deutsche Telekom B2C Europe területét irányította, tíz ország kereskedelmi aktivitásáért felelt. Február végén újabb ugrást ért el a karrierjében, ezúttal a cseh és a szlovák Telekom vezérigazgatójává nevezték ki. Az új, kettős pozíciót 2024 júniusától veszi át, addig a két céget interim ügyvezető irányítja. "
   },
   {
     "id" : 18,
     "serial" : 3,
-    "tag" : "üzlet-nemzetközi",
+    "tag" : "uzlet-nemzetkozi",
+    "tag_name" : "üzlet-nemzetközi",
     "image" : "uzlet-nemzetkozi-3-wortmann-gabriella-uj.png",
     "name" : "Wortmann Gabriella",
     "url" : "18-wortmann-gabriella",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "nemzetközi tervezésért, működésért és ellátási láncokért felelős alelnök – New Balance\n",
+    "paragraph" : "17 éve dolgozik az egyik legnagyobb amerikai sportcipő- és ruházatgyártónál, a New Balance-nél, ötödik éve alelnöki pozícióban. Emellett ma a New Balance digitális átalakításának üzleti oldaláért is ő felel. Százhúsz fős csapatot vezet a vállalat bostoni központjában, több millió dolláros büdzsé felett diszponál.\n"
   },
   {
     "id" : 19,
     "serial" : 4,
-    "tag" : "üzlet-nemzetközi",
+    "tag" : "uzlet-nemzetkozi",
+    "tag_name" : "üzlet-nemzetközi",
     "image" : "uzlet-nemzetkozi-4-ortutay-zsuzsanna-uj.png",
     "name" : "Ortutay Zsuzsanna",
     "url" : "19-ortutay-zsuzsanna",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "igazgatótanács elnöke – INA",
+    "paragraph" : "Júliustól Ortutay Zsuzsannát nevezték ki a Mol horvát leányvállalata, az INA élére, a megbízás három évre szól. Több mint három éve tagja az INA Felügyelőbizottságának, 2019-től a Mol-csoport üzleti megoldásokért felelős elnöke. Viharos időszak után vette át az INA irányítását, komoly átalakításokat hajtott végre, változtattak a belső folyamatokon is."
   },
   {
     "id" : 20,
     "serial" : 5,
-    "tag" : "üzlet-nemzetközi",
+    "tag" : "uzlet-nemzetkozi",
+    "tag_name" : "üzlet-nemzetközi",
     "image" : "uzlet-nemzetkozi-5-friedl-zsuzsanna-uj.png",
     "name" : "Friedl Zsuzsanna",
     "url" : "20-friedl-zsuzsanna",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "HR-igazgató – T-Systems International",
+    "paragraph" : "Tavaly szeptemberben távozott a Magyar Telekom HR-vezérigazgató-helyettesi székéből, januártól a németországi anyavállalatnál folytatta mint HR-igazgató. Az új feladatkörben a 20 országban jelen lévő, 28 ezer fős T-Systemsnél felel a HR-vezetői feladatokért, mellette a szervezet fejlesztése lesz a fő feladata.\n"
   },
   {
     "id" : 21,
     "serial" : 1,
-    "tag" : "kultúra",
+    "tag" : "kultura",
+    "tag_name" : "kultúra",
     "image" : "kultura-1-kariko-katalin-uj.png",
     "name" : "Karikó Katalin",
     "url" : "21-kariko-katalin",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "magyar biokémikus, Nobel-díjas kutató",
+    "paragraph" : "Nem volt olyan háttérbeszélgetésünk idén, amelyen a befolyásos magyar nő szóösszetétel esetében ne Karikó Katalin neve került volna az elsők között szóba. Karikó Katalin és Drew Weissman kapták ugyanis a 2023-ban a Svéd Királyi Tudományos Akadémia fiziológiai és orvostudományi Nobel-díját az mRNS-alapú oltási technológia kifejlesztéséért. Ezzel Karikó Katalin nem csupán az orvostudomány kiemelkedő alakjává vált, de a magyar kultúra meghatározó szereplőjévé és alakítójává is. Karikó az első Nobel-díjas magyar nő.\n"
   },
   {
     "id" : 22,
     "serial" : 2,
-    "tag" : "kultúra",
+    "tag" : "kultura",
+    "tag_name" : "kultúra",
     "image" : "kultura-2-kolosi-beata.png",
     "name" : "Kolosi Beáta",
     "url" : "22-kolosi-beata",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "a Líra Könyv Zrt. vezérigazgatója\n",
+    "paragraph" : "A tavalyi év eseményei Kolosi Beáta kulturális szerepét éppenséggel felértékelik, még ha pozíciója változott is idei listánkon. A legnagyobb magyar független könyvkereskedelmi és kiadóhálózat vezetését 2011-ben vette át édesapjától, és néhány év alatt a teljes menedzsmentet megújította hozzá kötődő emberekkel. A gazdag múltra visszatekintő, több mint huszonöt éve alapított Líra Könyv Zrt. kötelékébe tartozik mára Magyarország egyik vezető könyvterjesztő- és könyvesbolthálózata, összesen 92 bolttal, webshoppal, és társtulajdonosa a legnagyobb e-könyv-gyártó és -terjesztő vállalatnak is.\n"
   },
   {
     "id" : 23,
     "serial" : 3,
-    "tag" : "kultúra",
+    "tag" : "kultura",
+    "tag_name" : "kultúra",
     "image" : "kultura-3-rasko-eszter.png",
     "name" : "Ráskó Eszter",
     "url" : "23-rasko-eszter",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "humorista, standupos, rádiós, cégvezető, pszichológus, szexuálpszichológus\n",
+    "paragraph" : "Hétköznap reggelenként milliónyi ember hallgatja, 2023 végén több mint 28 ezer nézővel zárult Tirpák Madonna című önálló estjének országos turnéja, januárban pedig már el is kezdődött az új sorozat, a Hetyegő Vipera, amire szinte lehetetlen jegyet kapni.  A legsikeresebb magyar női humorista az egyik leghallgatottabb magyar rádióműsor, a Rádió 1 Balázsék női főszereplő-műsorvezetője is. Állandó fellépője a Dumaszínháznak, Youtube-csatornáját több mint 40, Instagramját több mint 61 ezer ember követi.\n"
   },
   {
     "id" : 24,
     "serial" : 4,
-    "tag" : "kultúra",
+    "tag" : "kultura",
+    "tag_name" : "kultúra",
     "image" : "kultura-4-kovats-adel.png",
     "name" : "Kováts Adél",
     "url" : "24-kovats-adel",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "igazgató, Radnóti Színház\n",
+    "paragraph" : "A Kossuth- és Jászai Mari-díjas magyar színésznő, a Radnóti Színház igazgatója második ciklusát tölti az intézmény élén, amelyet 2016 óta vezet. Kováts vezetői programja a társadalom szélesebb rétegei felé nyitni a színházat, és igazgatói pozícióját nem tartja összeférhetetlennek a társadalmi ügy-képviselettel sem. Ennek szellemében 2023 júniusában felszólalt az egyik tanár-diáktüntetésen is.\n"
   },
   {
     "id" : 25,
     "serial" : 5,
-    "tag" : "kultúra",
+    "tag" : "kultura",
+    "tag_name" : "kultúra",
     "image" : "kultura-5-tompa-andrea.png",
     "name" : "Tompa Andrea",
     "url" : "25-tompa-andrea",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "író, színikritikus\n",
+    "paragraph" : "Tompa Andrea kapta 2024-ben a Mészöly Miklós-díjat, azok számára is felhelyezve a szerzőt a kortárs magyar irodalom kiválóságainak térképére, akik korábban inkább színikritikusként tekintettek rá. Tompa a magyar kulturális élet egyik meghatározó alakja, aki nem fél hallatni a hangját akár társadalmi, közéleti kérdésekben sem. Volt, aki úgy fogalmazott: szépirodalmi munkájával és erőteljes karakterével „önerőből vált meghatározó kultúrdiplomáciai alakká, társadalmi ügyek befolyásolójává, a nőket és más láthatatlanokat láthatóvá tevő közszereplővé”.\n"
   },
   {
     "id" : 26,
     "serial" : 6,
-    "tag" : "kultúra",
+    "tag" : "kultura",
+    "tag_name" : "kultúra",
     "image" : "kultura-6-enyedi-ildiko.png",
     "name" : "Enyedi Ildikó",
     "url" : "26-enyedi-ildiko",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "filmrendező, forgatókönyvíró\n",
+    "paragraph" : "Enyedi Ildikó volt a 76. cannes-i filmfesztivál hivatalos programjában versenyző rövidfilmek és a filmfőiskolák legjobbjait vizsgáló nemzetközi zsűri elnöke. Enyedi a hazai – nem csupán kulturális – közbeszédben is jelentős szereplő, főként mióta 2017. február 18-án az általa rendezett Testről és lélekről című film elnyerte a Berlini Nemzetközi Filmfesztivál fődíját, az Arany Medvét, illetve Oscar-díjra is jelölték a legjobb idegen nyelvű film kategóriában.\n"
   },
   {
     "id" : 27,
     "serial" : 7,
-    "tag" : "kultúra",
+    "tag" : "kultura",
+    "tag_name" : "kultúra",
     "image" : "kultura-7-petranyi-viktoria.png",
     "name" : "Petrányi Viktória",
     "url" : "27-petranyi-viktoria",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "producer, alapító – Proton Cinema\n",
+    "paragraph" : "Erősítette befolyását forrásaink szerint Mundruczó Kornél rendező alkotótársa és szakmai partnere, a Proton Cinema vezető producere. Petrányi a hazai filmszakma sokoldalú szereplője, produkciós cégük áll a többi között a tavaly bemutatott, jelentős sikereket, és némi közéleti vihart is kavaró Reisz Gábor-film, a Magyarázat mindenre mögött is.\n"
   },
   {
     "id" : 28,
     "serial" : 8,
-    "tag" : "kultúra",
+    "tag" : "kultura",
+    "tag_name" : "kultúra",
     "image" : "kultura-8-orvos-toth-noemi.png",
     "name" : "Orvos-Tórh Noémi",
     "url" : "28-orvos-toth-noemi",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "klinikai szakpszichológus, író\n",
+    "paragraph" : "Orvos-Tóth Noémi klinikai szakpszichológus, a Transzgenerációs Trauma Intézet alapítója íróként és motivációs előadóként ér el százezreket az országban – sőt, határokon túl is. Előadásai teltházasak, Facebook-oldalát 183 ezren követik, de Instagramon is figyelnek rá 47,3 ezren. Az Örökölt sors és a Szabad akarat című könyvek szerzője évek óta a sikerlisták élén szerepel, előbbi a tavalyi eladási adatokban is kiugró eredményeket mutatott, sőt, 2024-ben idegen nyelveken is megjelenik.\n"
   },
   {
     "id" : 29,
     "serial" : 9,
-    "tag" : "kultúra",
+    "tag" : "kultura",
+    "tag_name" : "kultúra",
     "image" : "kultura-9-erdody-orsolya-.png",
     "name" : "Erdődy Orsolya",
     "url" : "29-erdody-orsolya",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "menedzser-igazgató – Budapesti Fesztiválzenekar",
+    "paragraph" : "Már tavaly is azt írtuk róla, hogy a Budapesti Fesztiválzenekar (BFZ) menedzselésével beírta a nevét a kulturális élet befolyásos személyiségei közé. Aztán a BFZ 2023-ban egyetlen kelet-európai zenekarként a 8. helyen végzett a klasszikus zenei szakportál, a Bachtrack világ 10 legjobb szimfonikus zenekarát sorjázó listáján. 40. jubileumi évaduk során többet koncerteztek, mint valaha: 12 külföldi turnéjuk volt, 52 koncerttel. A BFZ koncertjei ráadásul teltházasak, a több mint 17 ezer fős törzsközönségből több mint 4000 a bérletvásárlójuk van, de a zenekar visszatérő vendég a zenei világ legfontosabb központjaiban is.\n"
   },
   {
     "id" : 30,
     "serial" : 10,
-    "tag" : "kultúra",
+    "tag" : "kultura",
+    "tag_name" : "kultúra",
     "image" : "kultura-10-rozgonyi-kulcsar-viktoria.png",
     "name" : "Rozgonyi-Kulcsár Viktória",
     "url" : "30-rozgonyi-kulcsar-viktoria",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : " színházi menedzser, a budapesti Jurányi Ház alapítója, intézményvezetője, a Füge Egyesület ügyvezető elnöke\n",
+    "paragraph" : "A legjobb színházi lobbistának tartják, aki azért hozta létre a Függetlenül Egymással Közhasznú Egyesületet, azaz a Fügét, hogy a szcénába érkező kevés állami támogatást kiegészítsék például mecénások adományaival. Egy évtized alatt bebizonyította, hogy a művészet iránti elkötelezettség és az összeszedett gondolkodásmód hegyeket mozgat meg. Az általa vezetett Jurányi Produkciós Közösségi Inkubátorház immár tíz éve működik, Rozgonyi-Kulcsár tavaly novemberben Pro Cultura Urbis-díjban is részesült.\n"
   },
   {
     "id" : 31,
     "serial" : 1,
-    "tag" : "média",
+    "tag" : "media",
+    "tag_name" : "média",
     "image" : "media-1-vidus-gabriella.png",
     "name" : "Vidus Gabriella",
     "url" : "31-vidrus-gabriella",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "vezérigazgató – RTL Magyarország",
+    "paragraph" : "„Nem a focihoz kell érteni, hanem az üzlethez.” Vidus Gabriella a Forbes.hu-nak adott interjúban tavaly egy konkrét ügyben fogalmazott így, de az RTL vezérének immár évtizedes ars poeticájaként is érthető ez a mondat. Legelső, 2015-ös befolyásos nők listánk óta tartja ugyanis első helyezését a médialista élén. És idén is igaz: minden bizonnyal előkelő helyet kapna a képzeletbeli összesített listán is. Ugyan 2023-ban az RTL második helyen végzett a nézettségi versenyben, de 4 hónapot azért elvitt, és lényegesen nem romlottak a számai. 2024 őszétől az RTL lineáris és digitális felületei közvetítik a futball Bajnokok Ligája (BL) meccseit. A 2022-es pénzügyi évben az RTL Magyarország részét képező, többek között az RTL tévécsatornát üzemeltető Magyar RTL Televízió Zrt. (M-RTL Zrt.) 47,2 milliárd forintos nettó árbevétel mellett 680 millió forintos adózás utáni eredményt könyvelhetett el.\n"
   },
   {
     "id" : 32,
     "serial" : 2,
-    "tag" : "média",
+    "tag" : "media",
+    "tag_name" : "média",
     "image" : "media-2-lenkei-mirtill.png",
     "name" : "dr. Lenkei Mirtill",
     "url" : "32-dr-lenkei-mirtill",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "Nemzeti Kommunikációs Hivatal\n",
+    "paragraph" : "A jogász végzettségű Lenkei Mirtill 1995 és 2002 között az MTV-nél volt műsorvezető, a 2010-es évek elején a City TV-nél dolgozott, magyarán Rogán Antal polgármestersége alatt a V. kerületi önkormányzat kábeltévéjét vezette. Nyilván e személyes kapcsolat révén 2015 novembere óta annak a hivatalnak az élén áll, amit azért hozott létre a kormány, hogy az állami intézmények és vállalatok hirdetési költségei felett rendelkezzen. Máig már több mint 1300 milliárd forint értékben. Az NKOH elnökeként Lenkei szubjektív szempontok alapján, érdemi indokolási kötelezettség nélkül dönthet arról, mikor, mit, hogyan és kinek a megbízásával kommunikálhat bármely magyar állami vagy részben állami cég, hatóság, hivatal, vagy kormányzati szervezet.\n"
   },
   {
     "id" : 33,
     "serial" : 3,
-    "tag" : "média",
+    "tag" : "media",
+    "tag_name" : "média",
     "image" : "media-3-kalman-erika.png",
     "name" : "Kálmán Erika",
     "url" : "33-kalman-erika",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "vezérigazgató – Mediaworks Hungary Zrt. \n",
+    "paragraph" : "Heinrich Pecina, a Népszabadság bezárásáért felelős Vienna Capital Partners egykori vezérének régi, bizalmi embere a kormányzati sajtó zászlóshajója, a Mediaworks vezérigazgatója. A hanyatló olvasottsági adatokon nem sikerült fordítania, ennek ellenére Kálmán Erika pénzügyileg gatyába rázta a Mediaworks Zrt.-t, persze kormányzati hátszéllel. A cég 2022-ben 56,1 milliárd forintos forgalmat ért el, szemben a 2021-es 47,8 milliárddal, és az évet 4,8 milliárd forintos nyereséggel zárta, ami nagy ugrást jelent a 2021-es 2 milliárdos profithoz képest.\n"
   },
   {
     "id" : 34,
     "serial" : 4,
-    "tag" : "média",
+    "tag" : "media",
+    "tag_name" : "média",
     "image" : "media-4-liptak-timea.png",
     "name" : "Lipták Tímea",
     "url" : "34-liptak-timea",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "magazinüzletág-vezető, a vezetői testület tagja – Central Médiacsoport\n",
+    "paragraph" : "Az ország egyik legnagyobb kiadójában gyakorolt stratégiai befolyása miatt Lipták Tímea 2024-ben is megkerülhetetlen szereplő a magyar sajtópiacon. A Central Médiacsoport magazin-portfóliójának igazgatása mellett a vezetői testületben is helye van, ami forrásaink szerint kiemeli őt cégen belül is. A Central Médiacsoport 13,6 milliárdos árbevétellel, és 5,5 milliárdos nettó eredménnyel zárta a 2022-es évet. A vállalat vezető lapkategóriája továbbra is a női magazinoké, ami az eladások közel 45 százalékát hozta.\n"
   },
   {
     "id" : 35,
     "serial" : 5,
-    "tag" : "média",
+    "tag" : "media",
+    "tag_name" : "média",
     "image" : "media-5-d-toth-kriszta.png",
     "name" : "D. Tórh Kriszta",
     "url" : "35-d-toth-kriszta",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "alapító, tartalom- és kreatív igazgató, társtulajdonos – WMN.hu\n",
+    "paragraph" : "A WMN alapítója tavaly óta saját alkotói feladatai mellett elsősorban a tartalom- és kreatív igazgatóként folytatja a munkát a cégben, amelynek 85 százalékban tulajdonosa. Emellett a saját monogramjából létrejött márkanév, a DTK is érdemi befolyást jelent, hiszen ő kormányozza az Elviszlek magammal című, műfajteremtő autós interjú-műsort is. Ráadásul tavasszal indul a Viasat3 és a női portál közös műsora, miközben a WMN.hu-n 44 ezer egyedi látogató van naponta. A WMN 215 ezer Facebook-követővel, és 173 ezer Youtube-feliratkozóval rendelkezik, magát D. Tóth Krisztát ugyanakkor 304 ezren követik Facebookon, 122 ezren Instagramon. Az újságíró a 19. helyet szerezte meg tavaly a Forbes legértékesebb celebek listáján is.\n"
   },
   {
     "id" : 36,
     "serial" : 6,
-    "tag" : "média",
+    "tag" : "media",
+    "tag_name" : "média",
     "image" : "media-6-pacsonyi-daniella.png",
     "name" : "Pácsonyi Daniella",
     "url" : "36-pacsonyi-daniella",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "kreatív és kommunikációs igazgató – Central Médiacsoport\n",
+    "paragraph" : "Év eleje óta a Central Médiacsoport kreatív és kommunikációs igazgatóságát vezeti. Ez egy újonnan létrehozott pozíció, így még a cégen belüli forrásaink sem igazán akarták megítélni: előrelépést vagy éppen befolyás-csökkenést jelent-e ez a portfólióváltás Pácsonyi számára. Ezzel a bizonytalansággal magyarázható a hátrébb sorolása, hiszen megelőzően főszerkesztő és a női digitálisportfólió-igazgató is volt. Ugyanakkor Pácsonyi pályája régóta felívelőben van a Centralnál, melynek elődjéhez, a Sanomához 2010-ben újságíróként került, 2020 óta vitte a teljes női digitális portfóliót. A magánéletben Varga Zoltánnak, a Central Médiacsoport vezérigazgatójának élettársa.\n"
   },
   {
     "id" : 37,
     "serial" : 7,
-    "tag" : "média",
+    "tag" : "media",
+    "tag_name" : "média",
     "image" : "media-7-grosz-judit.png",
     "name" : "Grósz Judit",
     "url" : "37-grosz-judit",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "digitális területekért felelős vezérigazgató-helyettes – RTL Magyarország",
+    "paragraph" : "Az RTL Magyarország digitális építkezésének fontos fázisai tartoznak a Grósz Judithoz, hiszen az RTL Most és az RTL+ elindítása is személyéhez köthető, ahogy az RTL.hu megújítása is. Ráadásul most, hogy az RTL megszerezte a Bajnokok Ligája közvetítési jogait, azaz a koronaékszert, az immár csaknem 300 ezer előfizetővel rendelkező RTL+ üzleti stratégiája jelentős lökést kaphat 2024-ben – sőt, a szerződés három szezonra vonatkozik –, miközben a vállalat ígéretei szerint a magyar fikciós sorozatok és realityk kínálatát is bővítik a streaming platformon.\n"
   },
   {
     "id" : 38,
     "serial" : 8,
-    "tag" : "média",
+    "tag" : "media",
+    "tag_name" : "média",
     "image" : "media-8-csikesz-erika.png",
     "name" : "Csikesz Erika",
     "url" : "38-csikesz-erika",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "értékesítési és digitális igazgató –  TV2 Média Csoport",
+    "paragraph" : "Több forrás szerint jelentős, nagy költségű fejlesztésekre készül, és így érdemi előrelépést tervez a TV2 Média Csoport 2024-ben a digitális televíziós üzletágban. Vélhetően ennek is köszönhető, hogy Csikesz Erika kezébe adták ezt a területet is 2024. március 7-től. A TV2 nem zárt rossz évet tavaly, 2023-ban a lineáris televíziós piacon megnyerték a nézettségi versenyt, így a magyar médiatérben az állami háttéren túl is kezdik bebetonozni pozíciójukat. Csikesz eddig a médiacsoport értékesítési igazgatója volt, a digitális üzletág alá szervezése egyértelműen felhelyezi őt a médiapiaci térképre.\n"
   },
   {
     "id" : 39,
     "serial" : 9,
-    "tag" : "média",
+    "tag" : "media",
+    "tag_name" : "média",
     "image" : "media-9-varkonyi-andrea-uj-visszatero.png",
     "name" : "Várkonyi Andrea",
     "url" : "39-varkonyi-andrea",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "Mészáros Lőrinc felesége, alapító-tulajdonos – Whitedog Media Kft., igazgatósági tag – TV2 Zrt.",
+    "paragraph" : "Már 2022-ben is tudtuk listánk készítésekor, csak talán nem sejtettük, milyen brutális mennyiségű pénzt és médiapiaci hatalmat hoz majd össze Várkonyi Andrea számára a saját férje érdekeltségei által adott megbízások tömege. Várkonyi ráadásul a TV2 igazgatóságában jelenleg is döntéshozói szerepben tetszeleg, a Whitedog Mediával megkezdett reklámpiaci területfoglalással, és Mészáros Lőrinc médiaérdekeltségeinek szaporodásával pedig kiérdemelte a befolyásos visszatérő helyezést listánkon. A cég 2022-t már 4,4 milliárd forint értékesítésből származó nettó árbevétellel zárta, amiből 850 millió forintos nyereséget realizáltak, Várkonyi pedig 638 millió forint osztalékkal járulhatott hozzá a családi kasszához.\n"
   },
   {
     "id" : 40,
     "serial" : 10,
-    "tag" : "média",
+    "tag" : "media",
+    "tag_name" : "média",
     "image" : "media-10-hamori-barbara.png",
     "name" : "Hámori Gabriella",
     "url" : "40-hamori-gabriella",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "alapító, tulajdonos, producer – Scripted Productions\n",
+    "paragraph" : "Évről évre azzal vívja ki befolyásos pozícióját, hogy egyre több magyar gyártású fikciós sorozat kerül képernyőre mindkét fontos kereskedelmi csatornán, és az RTL-nél ezeket többnyire Hámori Barbara és cége, a Scripted Productions gyártja. Több mint húsz éve televíziózik, 30 éves korában már programigazgató volt a Viasat3-nál, és már ezt megelőzően és azóta is sikerprodukciók első számú vezetője (showrunnere). 2017-ben alapította meg saját cégét, amelynek a 2021-es 3 milliárdos rekord után 2022-re is 2,5 milliárdos nettó árbevételt termeltek a műsorok.\n"
   },
   {
     "id" : 41,
     "serial" : 1,
-    "tag" : "közélet",
+    "tag" : "kozlet",
+    "tag_name" : "közélet",
     "image" : "kozelet-1-levai-aniko.png",
     "name" : "Lévai Anikó",
     "url" : "41-levai-aniko",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "Orbán Viktor felesége, az Ökumenikus Segélyszervezet jószolgálati nagykövete, a Magyar Konyha szerkesztőbizottságának elnöke\n",
+    "paragraph" : "Több év kihagyás után ismét úgy találtuk, hogy Lévai Anikó Magyarország legbefolyásosabb nője. Aligha megkérdőjelezhető, hogy Orbán Viktor házastársának nemcsak a család, és talán a családi vagyon gyarapításában – például földtulajdonosként vagy a gyerekei, netán testvére körül kinövő gazdasági birodalom révén –, hanem számos társadalmi és politikai ügy alakításában is lehet szerepe.  Lévai „csupán” jótékonykodással szerepel a nyilvánosságban, azonban a Forbes háttérbeszélgetései azt erősítik, hogy mind a gazdasági életben, mind pedig a hatalomgyakorlásban egyre nagyobb befolyást szereznek az Orbán család nőtagjai.\n"
   },
   {
     "id" : 42,
     "serial" : 2,
-    "tag" : "közélet",
+    "tag" : "kozlet",
+    "tag_name" : "közélet",
     "image" : "kozelet-2-schmidt-maria.png",
     "name" : "Schmidt Mária",
     "url" : "42-schmidt-maria",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "cégtulajdonos, a Terror Háza főigazgatója, a 20. és 21. Század Intézet főigazgatója, a Közép- és Kelet-európai Történelem és Társadalom Kutatásáért Közalapítvány vezetője\n",
+    "paragraph" : "Orbán Viktor 2023-ban egy videófelvétel tanúsága szerint a vakációját nem akárhol: Schmidt Mária, a Terror Háza főigazgatójának lánya, Ungár Anna adriai villájában töltötte. Schmidt akkor is a második volt a Forbes legbefolyásosabb közéleti nőket összefogó listáján, amikor Magyarországnak még egy nő volt az államfője. Sőt, őt nem rázta meg Novák Katalin bukása, inkább ezzel is erősödött befolyása a magyar közéletre, sokan az ő ötleteként tartják például számon a szuverenitásvédelmi törvényt is. Schmidt Mária autonómiáját és erejét erősíti 60,6 milliárd forintra becsült vagyona, amellyel az idei Forbes gazdaglistán két év után újra szerepel, méghozzá a 38. helyen.\n"
   },
   {
     "id" : 43,
     "serial" : 3,
-    "tag" : "közélet",
+    "tag" : "kozlet",
+    "tag_name" : "közélet",
     "image" : "kozelet-3-kaminski-fanny.png",
     "name" : "Kaminski Fanny",
     "url" : "43-kaminsky-fanni",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "Orbán Viktor sajtótanácsadója, közösségi médiaoldalainak kezelője, Habony Árpád volt felesége\n",
+    "paragraph" : "Évek, sőt, immár évtizedek óta ismert, hogy a miniszterelnök sajtócsapatának meghatározó tagja, a kormányfő Facebook-oldalát és más közösségi médiás felületeit szerkesztő egykori újságíró, Habony Árpád első felesége. Cége, a PR és kommunikációs főtevékenységű, 2019-ben létrehozott Triton Communications Kft. 2022-ben 260 milliós árbevétellel zárt, a kormany.hu-n elérhető szerződéslisták alapján azonban 2022 szeptemberében egy évre, tehát 2023. augusztus 31-ig szóló szerződést kötött a Tritonnal a Miniszterelnöki Kabinetiroda, méghozzá 764 millió forint értékben.\n"
   },
   {
     "id" : 44,
     "serial" : 4,
-    "tag" : "közélet",
+    "tag" : "kozlet",
+    "tag_name" : "közélet",
     "image" : "kozelet-4-pottyondy-edina.png",
     "name" : "Pottyondy Edina",
     "url" : "44-pottyondy-edina",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "közéleti influenszer, youtuber, stand-up humorista, expolitikus",
+    "paragraph" : "Nem (csak) közéleti humora és politikai tartalmakban erős videói miatt tett szert jelentős befolyásra a magyar közéletben 2024-re. Az ugyanis, aki 150 ezer embert képes utcára vinni – a propaganda szerint azzal, hogy hamis Azahriah-koncertígérettel veri át őket –, érdemben gyakorol hatást a magyar társadalomra. Pottyondy Edina előkelő helyezése leginkább ennek a demonstrációnak, valamint felívelő online elérésének köszönhető. 2021 óta a Dumaszínházban is fellép, önálló stand-up előadásai országszerte teltházzal mennek, Youtube-csatornáján már több mint 272 ezer feliratkozó, videóin átlagosan 4-500 ezer megtekintés van.\n"
   },
   {
     "id" : 45,
     "serial" : 5,
-    "tag" : "közélet",
+    "tag" : "kozlet",
+    "tag_name" : "közélet",
     "image" : "kozelet-5-duro-dora.png",
     "name" : "Dúró Dóra",
     "url" : "45-duro-dora",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "Az Országgyűlés alelnöke, a Mi Hazánk elnökhelyettese és frakcióvezető-helyettese\n",
+    "paragraph" : "Ma Magyarországon Dúró Dóra nemcsak (listán) választott politikusként, hanem a magyar parlament egyetlen női alelnökeként lényegében a legerősebb közjogi funkcióval rendelkező nő. Akárhogy tekintünk az Országgyűlés szerepére és jelentőségére a NER világában, Dúró közpolitikai lehetőségei és aktivitása, sőt, még közösségi médiás elérése is indokolttá teszi, hogy szerepelhet a befolyáslistán. Tetteinek és szavainak hatása volt ugyanis arra, hogy a Fidesz-KDNP törvényt alkotott gyermekvédelmi néven, ahogy ahhoz is, hogy menesztették az ízig-vérig kormányzati elkötelezettségű L. Simon Lászlót, a Nemzeti Múzeum főigazgatóját.\n"
   },
   {
     "id" : 46,
     "serial" : 6,
-    "tag" : "közélet",
+    "tag" : "kozlet",
+    "tag_name" : "közélet",
     "image" : "kozelet-6-donath-anna.png",
     "name" : "Donáth Anna",
     "url" : "46-donath-anna",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "a Momentum elnöke, EP-listavezetője és uniós képviselője",
+    "paragraph" : "A nagy visszatérés a várakozásokhoz képest mérsékeltebb áttörést hozott a Momentum Mozgalom rég-új elnökének egyelőre, forrásaink mégis úgy látják, hogy rövid-, közép- és hosszú távon is van jelentősége Donáth Anna megszólalásainak, melyek a magyar közélet egy részének, az úgynevezett ellenzéki buboréknak a legnagyobb vitáit is generálják. Több forrásunk figyelmeztet ugyanakkor: Donáth egyelőre inkább a Gyurcsány-ellenes ellenzéki szavazókat, pártokat és szereplőket egységesíteni képes, avagy annak tartott közéleti szereplő, országos befolyása pedig júniusban, az európai parlamenti választáson méretik meg először.​\n"
   },
   {
     "id" : 47,
     "serial" : 7,
-    "tag" : "közélet",
+    "tag" : "kozlet",
+    "tag_name" : "közélet",
     "image" : "kozelet-7-dobrev-klara.png",
     "name" : "Dobrev Klára",
     "url" : "47-dobrev-klara",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : " a Demokratikus Koalíció EP-képviselője, 2024-es listavezetője, a párt árnyékminiszterelnöke\n",
+    "paragraph" : "Dobrev Klára a legismertebb magyar politikusnő a Medián mérései szerint. A magyar társadalom 92 százaléka tudja, ki ő, viszont éppen ebből fakad magas elutasítottsága is. A legnagyobb ellenzéki párt, a Demokratikus Koalíció arca, az úgynevezett árnyékkormány árnyékminiszterelnöke, és az idei európai parlamenti (EP) választáson is a DK listavezetője. Karaktere és a DK ereje az ellenzéki térfélen megkérdőjelezhetetlenül a befolyásos nők közé sorolja, sokan mégis felvetik: a legnagyobb ellenzéki párt sosem volt még olyan kicsi 1990 óta, mint a DK ma, és ezen Dobrev pozícionálása sem változtatott az elmúlt két évben.\n"
   },
   {
     "id" : 48,
     "serial" : 8,
-    "tag" : "közélet",
+    "tag" : "kozlet",
+    "tag_name" : "közélet",
     "image" : "kozelet-8-baranyi-krisztina.png",
     "name" : "Baranyi Krisztina",
     "url" : "48-baranyi-krisztina",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "Ferencváros független polgármestere\n",
+    "paragraph" : "A függetlenként megválasztott Baranyi Krisztina a fővárosi IX. kerület, azaz Ferencváros polgármestere, aki idén júniusban újrázik a tisztségért. Az 59 ezer lakosú budapesti kerület vezetője a főváros egyik legfajsúlyosabb és nagy eléréssel rendelkező politikusa, a Forbes-listán már tavaly is említett, „nem hajlik és nem törik” jelzőt nem elhagyva vág neki a 2024-es választásnak, és ezzel közéleti befolyása megőrzésének is.\n"
   },
   {
     "id" : 49,
     "serial" : 9,
-    "tag" : "közélet",
+    "tag" : "kozlet",
+    "tag_name" : "közélet",
     "image" : "kozelet-9-mager-andrea.png",
     "name" : "Mager Andrea",
     "url" : "49-mager-andrea",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "egykori tárca nélküli miniszter, a Szerencsejáték Zrt. elnök-vezérigazgatója\n",
+    "paragraph" : "Bár nem kapott helyet a 2022-ben újjáalakult Orbán-kormányban, azért nem hagyták az út szélén Mager Andreát, aki az Orbán-adminisztráció régi, bevált káderének számít, így a Forbes befolyásos listáján sem először szerepel. 2022 júniusában Rogán Antal, a Miniszterelnöki Kabinetirodát vezető miniszter nevezte ki, és a Szerencsejáték Zrt. elnök-vezérigazgatójaként 2024-re vár jelentős pénzpiaci áttörést az állami cég számára. Háttérbeszélgetéseink alapján azonban befolyása nem igazán üzleti, Mager a mai pozícióját, és a Szerencsejáték Zrt.-ben őrzött állami pénzeket inkább a magyar közélet befolyásolására használja.\n"
   },
   {
     "id" : 50,
     "serial" : 10,
-    "tag" : "közélet",
+    "tag" : "kozlet",
+    "tag_name" : "közélet",
     "image" : "kozelet-10-pardavi-marta.png",
     "name" : "Pardavi Márta",
     "url" : "50-pardavi-marta",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : " jogász, emberi jogi aktivista, a Magyar Helsinki Bizottság társelnöke jogász, emberi jogi aktivista, a Magyar Helsinki Bizottság társelnöke\n",
+    "paragraph" : "Szinte a teljes múlt év azzal telt, hogy lebegtette, decemberben aztán benyújtotta, majd el is fogadta a Fidesz-KDNP a szuverenitásvédelmi törvénycsomagot. Pardavi Márta közéleti befolyása ezzel a törvénnyel szemben igazán mérhető, és a civil jogvédők képviseletében szimbolikus értelemben is listánkon a helye. Ő maga és szervezete ugyanis nem enged semmilyen megfélemlítésnek. Itthon erőteljes – tavaly is számos pert sikerre vivő – jogvédő tevékenységükkel, a nemzetközi színtéren pedig jogelemzői és szakértői jelentéseikkel gyakoroltak valódi befolyást a magyar közélet alakulására.\n"
   },
   {
     "id" : 51,
     "serial" : 11,
-    "tag" : "közélet",
+    "tag" : "kozlet",
+    "tag_name" : "közélet",
     "image" : "kozelet-10-1szentkiralyi-alexandra.png",
     "name" : "Szentkirályi Alexandra",
     "url" : "51-szentkiralyi-alexandra",
-    "sub_title" : "",
-    "paragraph" : "Alapítása óta vezeti a Gránit Bankot, ma is nagyobb a beleszólása a Gránit ügyeibe, mint amennyit tulajdoni aránya mutat. De egy éve szinte az összes részvényét eladta Tiborcz Istvánnak. Azt mondja, mindent racionálisan mérlegelt, jó döntést hozott, és a kormányfő veje valóban pénzügyi befektetőként viselkedik."
+    "sub_title" : "a Fidesz főpolgármester-jelöltje\n",
+    "paragraph" : "Március közepén jelentette be a Fidesz-KDNP, hogy a hosszas találgatások, illetve a korábban kiszivárgott népszerűségi eredmények ellenére Szentkirályi Alexandrát jelölik a június 9-i önkormányzati választáson Budapest főpolgármesterének. Indítását leginkább az indokolhatta, hogy az LMP felkérésére, de függetlenként Vitézy Dávid is ringbe száll a főpolgármesteri címért. Együttesen pedig már alaposan megkavarhatják az erőviszonyokat, még akkor is, ha Szentkirályi eddigi kormányszóvivőként egyetlen háttérbeszélgetésünk alapján sem gyakorol érdemi befolyást az ország, sőt, még Budapest közéleti viszonyaira sem."
   }
 ]
