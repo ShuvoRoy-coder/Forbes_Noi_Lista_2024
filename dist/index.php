@@ -1,9 +1,9 @@
 <?php
 
-    $url = 'https://stage.forbes.hu/extra/a-legbefolyasosabb-magyar-nok-2024/';
+    $url = '/extra/a-legbefolyasosabb-magyar-nok-2024';
 
-    $script = 'assets/index-xyaEC2ws.js';
-    $stylsheet = 'assets/index-XxuGIcAE.css';
+    $script = '/assets/index-xyaEC2ws.js';
+    $stylsheet = '/assets/index-XxuGIcAE.css';
     
     if(!isset($page)) {
         $page = [
@@ -26,7 +26,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script>
-      window.mainUrl = "<?= $url ?>";
+      window.mainUrl = "<?= $url ?>/";
     </script>
     
     <!-- share area -->
