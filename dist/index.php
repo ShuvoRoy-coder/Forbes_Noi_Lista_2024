@@ -2,7 +2,7 @@
 
     $url = '/extra/a-legbefolyasosabb-magyar-nok-2024';
 
-    $script = '/assets/index-xyaEC2ws.js';
+    $script = '/assets/index-8m55zMjU.js';
     $stylsheet = '/assets/index-XxuGIcAE.css';
     
     if(!isset($page)) {
@@ -22,7 +22,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="<?= $url ?>images/Facicon.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="<?= $url ?>/images/Facicon.png" sizes="32x32">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script>
@@ -35,7 +35,7 @@
     <meta property="og:title" content="<?= $metaTitle ?>">
     <meta property="og:description"
       content="<?= $metaDesc ?>">
-    <meta property="og:image" content="<?= $url ?>social-share-images/fb-share.png">
+    <meta property="og:image" content="<?= $url ?>/social-share-images/fb-share.png">
 
     <title>Forbes_Noi_Lista_2024</title>
 

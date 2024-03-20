@@ -28,7 +28,7 @@ const selectTag = (tag) => {
             :class="{ 'text-white border-b-2 border-white': filter.getSelectedTag === tag,
                     'text-[#EFA477] border-b-2 border-transparent ': filter.getSelectedTag != tag}"
         >
-            {{ tag }}
+            {{ filter.users.find(user => user.tag == tag).tag_name }}
         </button>
     </div>
 

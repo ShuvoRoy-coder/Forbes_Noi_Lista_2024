@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 import ModszertanModal from './ModszertanModal.vue';
+import { useHelpers } from '@/composables/useHelpers';
 
     defineProps({
         small: Boolean
@@ -16,6 +17,9 @@ import ModszertanModal from './ModszertanModal.vue';
     const showPopup = () => {
         modszertPopup.value = true;
     }
+
+    const { url } = useHelpers();
+
 </script>
 
 <template>
@@ -31,17 +35,17 @@ import ModszertanModal from './ModszertanModal.vue';
             <h3 class="text-orange-800 font-bold text-[14px] mini:text-[20px] leading-normal text-center">Gratulál a listán szereplőknek a</h3>
             
             <div class="mx-auto w-[150px] mini:w[180px] sm:w-[211px] py-2">
-                <img src="/images/volvo-logo.svg" alt="volvo-logo" class="w-full">
+                <img :src="url('./images/volvo-logo.svg')" alt="volvo-logo" class="w-full">
             </div>
         </div>
 
         <div class="bottom">
             <div class="mx-auto w-[120px] sm:w-[180px]">
-                <img src="/images/Forbes.svg" alt="forbes-logo">
+                <img :src="url('./images/Forbes.svg')" alt="forbes-logo">
             </div>
             <h1 class="text-[25px] sm:text-[40px] leading-normal text-center text-white font-semibold">A legbefolyásosabb</h1>
             <div class="mx-auto w-[189px] sm:w-[291px] -translate-y-3 sm:-translate-y-4">
-                <img src="/images/magyar.svg" alt="forbes-logo">
+                <img :src="url('./images/magyar.svg')" alt="forbes-logo">
             </div>
             <div class="w-full px-3">
                 <div class="text-[#833E17] font-bold text-[10px] sm:text-[14px] leading-normal text-center">
@@ -63,19 +67,19 @@ import ModszertanModal from './ModszertanModal.vue';
 
     <!-- Big volvoBox end -->
     <!-- Small volvoBox start -->
-
-    <router-link to="/"
+    
+    <router-link :to="{name: 'landing'}"
         v-show="small"class="bg-gradient-to-bl font-urban from-orange-300 via-orange-400 to-orange-600
             flex items-end justify-center w-full h-full py-[10px] mini:py-[14px] sm:py-[18px] rounded-[14px]">
         
         <div class="space-y-[1px] sm:space-y-2">
             <div class="mx-auto w-[50px] sm:w-[65px]">
-                <img src="/images/Forbes.svg" alt="forbes-logo" class="w-full">
+                <img :src="url('./images/Forbes.svg')" alt="forbes-logo" class="w-full">
             </div>
 
             <h1 class="text-[10px] mini:text-[12px] sm:text-[15px] leading-normal text-center text-white font-semibold">A legbefolyásosabb</h1>
             <div class="mx-auto w-[80px] -translate-y-[5px] mini:w-[90px] mini:-translate-y-[7px] sm:w-[112px] sm:h-[20px] sm:-translate-y-4">
-                <img src="/images/magyar.svg" alt="forbes-logo" class="w-full">
+                <img :src="url('./images/magyar.svg')" alt="forbes-logo" class="w-full">
             </div>
 
         </div>

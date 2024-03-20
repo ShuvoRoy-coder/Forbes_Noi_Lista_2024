@@ -22,10 +22,11 @@ onBeforeMount(async () => {
     filteredItemsStore.init(null, users);
 })
 
+
 </script>
 
 <template>
-    <div class="bg-black  bg-no-repeat bg-center bg-cover bg-fixed w-full h-screen overflow-auto" style="background-image: url(/images/desktop-background.png)">
+    <div id="main" class="bg-black bg-no-repeat bg-center bg-cover bg-fixed w-full h-screen overflow-auto" :style="{'background-image' : `url(${url('/images/desktop-background.png')})`}">
         <div class="container mx-auto relative pt-20 space-y-8">
 
                 <div class="flex flex-col gap-4 items-center justify-center max-w-[473px] mx-auto">
@@ -41,7 +42,7 @@ onBeforeMount(async () => {
                     <!-- button area end -->
                 </div>
 
-            <magazine :type="landing"/>
+            <magazine type="landing"/>
 
         <!-- banner area start -->
             <div class="w-full sm:block hidden">
