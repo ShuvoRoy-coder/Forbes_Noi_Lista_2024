@@ -17,7 +17,7 @@ const props = defineProps({
         </div>
         <!-- paragraph -->
         <div class="w-full bg-white rounded-[10px] px-8 py-6 mini:px-10 mini:py-8 relative">
-            <div class="tagname bg-[#EFA477] inline-block absolute top-0 right-[35%] mini:right-[40%] md:right-[10%] -translate-y-[50%] text-white text-[18px] leading-[23px] px-5 py-2 rounded-[7px]">{{ user.tag }}</div>
+            <div class="tagname bg-[#EFA477] inline-block absolute top-0 right-[35%] mini:right-[40%] md:right-[10%] -translate-y-[50%] text-white text-[18px] leading-[23px] px-5 py-2 rounded-[7px]">{{ user.tag_name }}</div>
             <div class=" text-[14px] leading-[18px] mini:text-[18px] mini:leading-[23px] text-[#CD7849] font-bold">
                 {{ user.paragraph }}
             </div>
