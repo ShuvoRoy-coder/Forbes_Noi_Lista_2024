@@ -2,8 +2,8 @@
 
     $url = '/extra/a-legbefolyasosabb-magyar-nok-2024';
 
-    $script = '/assets/index-wfswzrdR.js';
-    $stylsheet = '/assets/index-Gf-3_lOs.css';
+    $script = '/assets/index-go3MKUp1.js';
+    $stylsheet = '/assets/index-B9yXWPU1.css';
     
     if(!isset($page)) {
         $page = [

@@ -11,5 +11,5 @@ const { url } = useHelpers();
 </template>
 
 <style scoped>
-   
+
 </style>

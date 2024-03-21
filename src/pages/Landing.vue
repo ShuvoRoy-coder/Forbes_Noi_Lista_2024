@@ -46,7 +46,8 @@ onBeforeMount(async () => {
 
             <!-- banner area start -->
             <div class="w-full lg:block hidden">
-                <horizontal-banner /> 
+                <horizontal-banner />
+                <p class="text-white text-center text-[8px] py-2">HIRDETÉS</p>
             </div>
         <!-- banner area end -->
 

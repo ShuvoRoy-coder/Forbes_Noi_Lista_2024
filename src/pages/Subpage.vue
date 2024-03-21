@@ -178,15 +178,17 @@ onMounted( async () => {
                             <!-- banner area -->
                             <div class="lg:block hidden ml-auto">
                                 <verticalBanner/>
+                                <p class="text-white text-center text-[8px] py-2">HIRDETÉS</p>
                             </div>
 
                             <!-- mobile banner area -->
                             <div class="flex flex-col items-center gap-10 lg:hidden">
                                 <div class="block lg:hidden">
                                     <mobileBanner/>
+                                    <p class="text-white text-center text-[8px] py-2">HIRDETÉS</p>
                                 </div>
                                 <div class="volvo-image mx-auto max-w-[141px] w-full block lg:hidden">
-                                    <img src="/images/volvo-logo.svg" alt="volvo-image">
+                                    <img :src="url('/images/volvo-logo.svg')" alt="volvo-image">
                                 </div>
                             </div>
                             <!-- mobile banner area -->
@@ -243,7 +245,6 @@ onMounted( async () => {
                 </router-link>
                 </div>
                 <!-- Next page and previous page button end-->
-
             </div>
         </div>
 </template>
