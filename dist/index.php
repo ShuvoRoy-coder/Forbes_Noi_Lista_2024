@@ -37,7 +37,7 @@
       content="<?= $metaDesc ?>">
     <meta property="og:image" content="<?= $url ?>/social-share-images/fb-share.png">
 
-    <title>Forbes_Noi_Lista_2024</title>
+    <title>A legbefolyásosabb magyar nők 2024</title>
 
     <script type="module" crossorigin src="<?=$url.$script?>"></script>
     <link rel="stylesheet" crossorigin href="<?=$url.$stylsheet?>">
