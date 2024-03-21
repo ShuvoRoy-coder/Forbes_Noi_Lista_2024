@@ -1,7 +1,9 @@
 <script setup>
+import { useHelpers } from '@/composables/useHelpers';
 
+const { url } = useHelpers();
 </script>
 
 <template>
-    <div class="bg-white max-w-[300px] h-[600px]"></div>
+    <iframe class="w-[300px] h-[600px]" :src="url('subpage-banner-lg/index.html')" frameborder="0"></iframe>
 </template>

@@ -13,7 +13,7 @@ const { url } = useHelpers();
 <template>
 
     <div
-        :class="[type == 'subpage' ? 'hidden lg:block top-[84%] lg:-left-1 xl:left-0' : 'right-6 xl:right-10 half:right-6 2xl:right-0']" 
+        :class="[type == 'subpage' ? 'hidden lg:block top-[84%] lg:left-2 xl:left-1' : 'right-6 xl:right-10 half:right-6 2xl:right-0']" 
         class="py-14 mini:py-12 sm:py-4 lg:py-0 lg:absolute top-[50px] z-10">
         <div
             :class="[type == 'subpage' ? 'lg:w-[230px] xl:w-[270px]' : 'mob:w-[300px] mini:w-[400px] sm:w-[473px] lg:w-[225px] xl:w-[300px]']"

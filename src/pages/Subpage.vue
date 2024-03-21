@@ -152,14 +152,14 @@ onMounted( async () => {
                     </div>
 
 
-                    <div class="w-full mt-10 md:mt-0 lg:w-[90%] xl:w-[85%] lg:ml-auto relative">
+                    <div class="w-full mt-10 md:mt-0 xl:w-[90%] xl:ml-auto relative">
                         
                     <!-- center area start -->
                         <div class="w-full flex flex-col lg:flex-row gap-20 lg:gap-3 xl:gap-6">
-                            <div class="w-full xl:w-[80%] flex-col lg:flex-row flex items-center justify-center gap-3 xl:gap-4">
+                            <div class="w-full xl:w-[75%] flex-col lg:flex-row flex items-center justify-center lg:gap-4 xl:gap-5 half:gap-2 2xl:gap-0">
                             
                             <!-- image area Start-->
-                                <div class="w-full lg:w-[40%]">
+                                <div class="w-full lg:w-[40%] xl:w-[40%] 2xl:w-[40%] flex items-center justify-center">
                                     <subpageImgDesign
                                         :user="user"
                                     />
@@ -167,7 +167,7 @@ onMounted( async () => {
                             <!-- image area End-->
                                 
                             <!-- text-area start-->
-                                <div class="w-full lg:w-[60%]">
+                                <div class="w-full lg:w-[60%] xl:w-[60%] 2xl:w-[60%] 2xl:-translate-x-5">
                                     <subpageTextArea
                                         :user="user"
                                     />
@@ -176,7 +176,7 @@ onMounted( async () => {
 
                             </div>
                             <!-- banner area -->
-                            <div class="lg:block hidden w-[20%]">
+                            <div class="lg:block hidden ml-auto">
                                 <verticalBanner/>
                             </div>
 
@@ -198,7 +198,7 @@ onMounted( async () => {
                         <div 
                             class="hidden lg:block relative w-full mt-20"
                         >                    
-                            <div class="slider w-[65%] mx-auto">
+                            <div class="slider w-[40%] xl:w-[60%] mx-auto">
                                 <Slider
                                     @slideChange="onSlideChange"
                                     :initialSlide="initialSlide"

@@ -87,7 +87,7 @@ onMounted(() => {
             },
 
             '750': {
-                slidesPerView: 4,
+                slidesPerView: 3,
                 spaceBetween: 1,
             },
 
@@ -146,13 +146,6 @@ onMounted(() => {
     justify-content: center;
 }
 
-.swiper-button-next {
-    right: 125px;
-    
-}
-.swiper-button-prev {
-    left: 125px;
-}
 
 .swiper-button-prev::after{
     content: "";
@@ -169,6 +162,25 @@ onMounted(() => {
     width: 100%;
     height: 100%;
     background-image: url('../components/icons/sliderIcon.svg');
+}
+
+@media only screen and (min-width: 1280px) {
+    .swiper-button-next {
+        right: 170px;
+    
+    }
+    .swiper-button-prev {
+        left: 170px;
+    }
+}
+@media only screen and (min-width: 1023.50px) and (max-width: 1279.50px) {
+    .swiper-button-next {
+        right: 250px;
+    
+    }
+    .swiper-button-prev {
+        left: 250px;
+    }
 }
 
 

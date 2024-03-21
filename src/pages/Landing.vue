@@ -44,11 +44,12 @@ onBeforeMount(async () => {
 
             <magazine type="landing"/>
 
-        <!-- banner area start -->
-            <div class="w-full sm:block hidden">
-                <horizontal-banner />
+            <!-- banner area start -->
+            <div class="w-full lg:block hidden">
+                <horizontal-banner /> 
             </div>
         <!-- banner area end -->
+
         </div>
 
 
